@@ -12,6 +12,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      height: {
+        content: "100vh",
+        nav: "var(--nav-height)",
+      },
+      fontFamily: {
+        fancy: ["Newsreader", "sans-serif"],
+      },
     },
   },
   plugins: [],
