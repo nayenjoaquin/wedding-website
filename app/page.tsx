@@ -20,7 +20,7 @@ export default function Home() {
           <h3 className="text-3xl text-white">Wedding day</h3>
           </div>
           <Countdown />
-          <SaveTheDateButton onClick={() => console.log("Save the date")} />
+          <SaveTheDateButton onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250930%2F20251001&details=NA&location=Tigiwon%20Community%20House&text=Clau%20%26%20Chris%20wedding")} />
         </div>
       </section>
       <ProgramPage />

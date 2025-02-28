@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Claudia & Chris wedding\nDate - Sep 30\, 2025\nVenue - Tigiwon Community House\nNA\n
+DTSTART:20250930
+DTEND:20251001
+LOCATION:Tigiwon Community House
+SUMMARY;LANGUAGE=en-us:Claudia & Chris wedding
+END:VEVENT
+END:VCALENDAR
