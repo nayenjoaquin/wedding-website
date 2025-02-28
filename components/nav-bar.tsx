@@ -24,7 +24,7 @@ export const NavBar = () => {
     return(
         <>
         <header className="bg-white h-nav w-full z-50 fixed md:hidden">
-            <div onClick={e=>{
+            <div onClick={()=>{
                 toggleMenu()
             }} className={` w-full h-content absolute top-[var(--nav-height)] transition-all bg-black opacity-25 ${!open ? 'hidden' : ''}`}></div>
             <nav className={`absolute transition-all right-0 top-[var(--nav-height)] ${!open ? 'right-[-100%]' : ''}`}>

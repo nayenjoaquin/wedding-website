@@ -1,7 +1,6 @@
 'use client'
 
 import Image from "next/image";
-import { Mea_Culpa } from "next/font/google";
 import { Countdown } from "@/components/countdown";
 import ProgramPage from "@/views/program";
 import { homeRef } from "@/const/refs";
