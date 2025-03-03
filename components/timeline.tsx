@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import { TimeLineItem } from "./timeline-item";
 import { useState } from "react";
 import { AnimatePresence } from "motion/react";

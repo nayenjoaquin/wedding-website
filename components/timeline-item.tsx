@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { motion, useAnimation } from "motion/react";
-import { useEffect } from "react";
+import { motion } from "motion/react";
 
 interface TimeLineItemProps{
     img: string,
@@ -17,13 +16,13 @@ export const TimeLineItem = (props: TimeLineItemProps) => {
             x: direction < 0 ? 500 : -500,
             opacity: 0,
         },
-        center: (direction: number) => ({
+        center: {
             opacity: 1,
             x: 0,
             transition: {
                 duration: .8
             }
-        }),
+        },
         exit: (direction: number) => ({
             x: direction==0 ? 0 : direction<0 ? -500 : 500,
             opacity: 0,
