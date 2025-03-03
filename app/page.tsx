@@ -6,6 +6,7 @@ import ProgramPage from "@/views/program";
 import { homeRef } from "@/const/refs";
 import { LocationView } from "@/views/location";
 import { SaveTheDateButton } from "@/components/save-the-date-button";
+import { OurStoryPage } from "@/views/our-story";
 
 export default function Home() {
 
@@ -16,7 +17,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center justify-center w-full z-10 font-fancy gap-5">
           <div className="flex flex-col items-center">
-          <h1 className="text-5xl md:text-7xl text-white font-bold">Claudia & Chris</h1>
+          <h1 className="text-5xl md:text-7xl text-white font-semibold">Claudia & Chris</h1>
           <h3 className="text-3xl text-white">Wedding day</h3>
           </div>
           <Countdown />
@@ -25,6 +26,7 @@ export default function Home() {
       </section>
       <ProgramPage />
       <LocationView />
+      <OurStoryPage />
     </div>
   );
 }

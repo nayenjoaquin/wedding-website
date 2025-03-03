@@ -19,6 +19,7 @@ export default {
       },
       fontFamily: {
         fancy: ["Newsreader", "sans-serif"],
+        handwritten: ["Rouge Script", "cursive"]
       },
     },
   },
