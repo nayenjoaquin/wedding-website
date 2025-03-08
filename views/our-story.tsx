@@ -4,59 +4,52 @@ import { storyRef } from "@/const/refs"
 export const OurStoryPage = () => {
     const timelineItems = [
         {
-            img: 'home.png',
-            text: 'It started with a language exchange app—meant to practice languages, but it brought us together.'
+            img: 'our-story.png',
+            text: ` language exchange app brought us together—Chris learning Spanish, me improving English. Casual chats turned into deep conversations, bridging cultures and hearts.
+            `
         },
         {
-            img: 'location.png',
-            text: 'Chris wanted to learn Spanish, and I hoped to improve my English. What began as casual chats grew into something deeper.'
-        },
-        {
-            img: 'home.png',
-            text: 'Though Chris struggled with Spanish, our conversations stretched into hours, bridging cultures and hearts.'
-        },
-        {
-            img: 'home.png',
+            img: 'our-story-2.png',
             text: 'After months of video calls, Chris flew to Chile. From the moment we met, everything felt natural.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-3.png',
             text: 'His silly, welcoming nature put me at ease. He flirted, but I missed every sign until my friends clued me in.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-4.png',
             text: 'Love grew quietly, in small moments—one laugh, one story at a time.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-5.png',
             text: 'I knew I loved him on a rainy hiking trip. He made tea, set up our tent, and kept me warm when I needed it most.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-6.png',
             text: 'For Chris, love deepened during long-distance—daily calls turning distance into closeness.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-7.png',
             text: 'Our best memories are the simplest—picnics, walks, and cozy nights at home.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-8.png',
             text: 'The proposal was perfect—on a beach full of memories, with laughter, tears, and an easy “yes”.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-9.png',
             text: 'Chris’s positivity and big heart inspire me every day. He makes me braver.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-10.png',
             text: "He admires my sense of adventure—how we find magic in life’s smallest moments."
         },
         {
-            img: 'home.png',
+            img: 'our-story-11.png',
             text: 'We dream of new adventures—Chile, South Korea, and becoming dog parents.'
         },
         {
-            img: 'home.png',
+            img: 'our-story-12.png',
             text: "Wherever life takes us, as long as we're together, we’re home."
         },
     ]
