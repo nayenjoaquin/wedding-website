@@ -7,7 +7,7 @@ import { MdOutlineDinnerDining } from "react-icons/md";
 
 export default function ProgramPage(){
     return (
-        <section ref={programRef} className="h-content w-full max-w-[100vw] max-h-[100vh] p-5 bg-background grid place-content-center gap-20">
+        <section ref={programRef} className="section p-5 grid place-content-center gap-20">
             <h1 className="text-5xl md:text-6xl text-center font-fancy ">PROGRAM</h1>
             <div className="flex flex-col items-cente justify-center gap-2.5">
                 <div className="flex flex-col items-center gap-5">

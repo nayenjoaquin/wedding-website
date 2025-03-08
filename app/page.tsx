@@ -11,7 +11,7 @@ import { OurStoryPage } from "@/views/our-story";
 export default function Home() {
 
   return (
-    <div className="flex flex-col pt-[var(--nav-height)]">
+    <div className="flex flex-col pt-[var(--nav-height)] text-foreground">
       <section ref={homeRef} className="h-content w-full bg-background grid place-content-center">
         <Image className="absolute w-full h-content object-cover z-0 object-center" src='/images/home.png' alt="background" height={1000} width={1000} />
 
