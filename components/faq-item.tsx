@@ -18,10 +18,10 @@ export const FAQItem = (props : FaqItemProps) => {
         })
     }
     return(
-        <div className="flex items-start gap-2.5 font-bold bg-white p-5 rounded-lg max-w-3xl cursor-pointer w-full transition-all" onClick={handleClick}>
-            <span>{index}.-</span>
+        <div className="flex items-start gap-2.5 font-bold bg-white p-5 rounded-lg cursor-pointer w-full transition-all" onClick={handleClick}>
+            <span>{index + 1}.-</span>
             <div>
-                <p>{item.question}</p>
+                <p className=" ">{item.question}</p>
                 <p className={`font-medium font-fancy ${!expanded ? 'hidden' : ''}`}>{item.answer}</p>
             </div>
         </div>
