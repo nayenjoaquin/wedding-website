@@ -18,9 +18,7 @@ export const FAQItem = (props : FaqItemProps) => {
         })
     }
     return(
-        <div className="flex items-start gap-2.5 font-bold bg-white p-5 rounded-lg max-w-3xl cursor-pointer w-full transition-all" onClick={e=>{
-            handleClick()
-        }}>
+        <div className="flex items-start gap-2.5 font-bold bg-white p-5 rounded-lg max-w-3xl cursor-pointer w-full transition-all" onClick={handleClick}>
             <span>{index}.-</span>
             <div>
                 <p>{item.question}</p>
