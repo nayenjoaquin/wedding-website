@@ -7,6 +7,7 @@ import { homeRef } from "@/const/refs";
 import { LocationView } from "@/views/location";
 import { SaveTheDateButton } from "@/components/save-the-date-button";
 import { OurStoryPage } from "@/views/our-story";
+import { FAQView } from "@/views/faq";
 
 export default function Home() {
 
@@ -27,6 +28,7 @@ export default function Home() {
       <ProgramPage />
       <LocationView />
       <OurStoryPage />
+      <FAQView />
     </div>
   );
 }

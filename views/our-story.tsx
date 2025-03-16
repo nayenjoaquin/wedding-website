@@ -5,7 +5,7 @@ export const OurStoryPage = () => {
     const timelineItems = [
         {
             img: 'our-story.png',
-            text: ` language exchange app brought us together—Chris learning Spanish, me improving English. Casual chats turned into deep conversations, bridging cultures and hearts.
+            text: ` It all started with a language exchange app that brought us together. Chris learning Spanish, me improving English. Casual chats turned into deep conversations, bridging cultures and hearts.
             `
         },
         {
