@@ -1,0 +1,2 @@
+export const weddingDescription= `We want our wedding to feel less like a formality and more like a gathering of our loved ones. This is the one day in our lives when we get to have our closest friends and family together in one place, and we want to make the most of it!`
+export const weddingDescription2 = `The overall vibe is outdoorsy and relaxed—think summer camp or a scene straight out of The Parent Trap. We want our guests to enjoy good company while soaking in the beauty of nature, sharing laughter, and making memories.`

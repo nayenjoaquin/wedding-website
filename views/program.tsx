@@ -8,7 +8,7 @@ import { MdOutlineDinnerDining } from "react-icons/md";
 export default function ProgramPage(){
     return (
         <section ref={programRef} className="section p-5 grid place-content-center gap-20">
-            <h1 className="text-5xl md:text-6xl text-center font-fancy ">WEDDING PROGRAM</h1>
+            <h1 className="title ">WEDDING PROGRAM</h1>
             <div className="flex flex-col items-cente justify-center gap-2.5">
                 <div className="flex flex-col items-center gap-5">
                     <Clock8 size="40" />

@@ -54,8 +54,8 @@ export const OurStoryPage = () => {
         },
     ]
     return(
-        <section ref={storyRef} className="section p-5 flex flex-col justify-between items-center">
-            <h3 className="text-5xl md:text-6xl font-fancy ">OUR STORY</h3>
+        <section ref={storyRef} className="section p-5 flex flex-col justify-center items-center gap-10">
+            <h3 className="title">OUR STORY</h3>
             <div className="flex justify-center items-center h-full">
                 <TimeLine content={timelineItems}/>
             </div>

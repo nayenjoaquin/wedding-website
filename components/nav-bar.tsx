@@ -3,11 +3,11 @@
 import { useState } from "react"
 import { NavBarItem } from "./nav-bar-item"
 import { Menu, X } from "lucide-react"
-import { faqRef, homeRef, locationRef, programRef, storyRef } from "@/const/refs"
+import { faqRef, homeRef, locationRef, programRef, storyRef, visionRef } from "@/const/refs"
 
 const Items=[
     {name: "Home", ref: homeRef},
-    {name: 'Our vision', ref: homeRef},
+    {name: 'Our vision', ref: visionRef},
     {name: "The big day", ref: programRef},
     {name: "Location", ref: locationRef},
     {name:'Our story', ref: storyRef},
