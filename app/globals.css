@@ -27,6 +27,7 @@ body {
 html {
   color: var(--foreground) !important;
   background: var(--background);
+  scroll-behavior: smooth;
 }
 
 .section{
@@ -42,9 +43,30 @@ html {
   font-family: 'NewsReader';
 }
 
+.subtitle{
+  font-size: 24px;
+  font-family: 'NewsReader';
+}
+
+.transition{
+  transition: background-color 5s ease;
+}
+.highlight:target {
+  background-color: #fff460; /* Tailwind's yellow-100 */
+  transition: background-color 1s ease;
+}
+
+.transparent{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
 
 @media (min-width: 768px) {
   .title {
       font-size: 48px;
+  }
+  .subtitle{
+    font-size: 32px;
   }
 }

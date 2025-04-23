@@ -9,6 +9,7 @@ import { SaveTheDateButton } from "@/components/save-the-date-button";
 import { OurStoryPage } from "@/views/our-story";
 import { FAQView } from "@/views/faq";
 import { WeddingVision } from "@/views/wedding-vision";
+import { PlanAheadPage } from "@/views/plan-ahead";
 
 export default function Home() {
 
@@ -26,11 +27,13 @@ export default function Home() {
           <SaveTheDateButton onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250930%2F20251001&details=NA&location=Tigiwon%20Community%20House&text=Clau%20%26%20Chris%20wedding")} />
         </div>
       </section>
-      <WeddingVision/>
-      <ProgramPage />
-      <LocationView />
       <OurStoryPage />
+      <WeddingVision/>
+      <LocationView />
+      <ProgramPage />
+      <PlanAheadPage/>
       <FAQView />
+      
       
     </div>
   );

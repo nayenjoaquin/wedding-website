@@ -32,7 +32,7 @@ export const FAQItem = (props : FaqItemProps) => {
                         : <FaAngleDown size={24} />
                     }
                 </div>
-                <p className={`font-medium font-fancy ${!expanded ? 'hidden' : ''}`}>{item.answer}</p>
+                <p className={`font-medium ${!expanded ? 'hidden' : ''}`}>{item.answer}</p>
             </div>
         </div>
     )
