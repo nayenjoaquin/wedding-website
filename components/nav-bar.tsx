@@ -11,8 +11,7 @@ const Items=[
     {name: 'Our vision', ref: visionRef},
     {name: "Location", ref: locationRef},
     {name: "The big day", ref: programRef},
-    // {name: 'Tips&Tricks', ref: homeRef},
-    {name: 'Plan ahead', ref: planRef},
+    {name: 'Planning ahead', ref: planRef},
     {name:'FAQ', ref: faqRef}
 ]
 

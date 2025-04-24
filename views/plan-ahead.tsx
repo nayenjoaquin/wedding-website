@@ -5,7 +5,7 @@ export const PlanAheadPage = () => {
     return(
         <div className="flex flex-col">
             <section ref={planRef} className="section flex flex-col gap-10 justify-center items-center p-5">
-                <h2 className="title mb-10">PLAN AHEAD</h2>
+                <h2 className="title mb-10">PLANNING AHEAD</h2>
                 <p className="max-w-2xl">For all our friends and family traveling from outside the U.S., here are some important tips and information to help you make the most of this experience.</p>
                 <div className="flex justify-center gap-10 max-w-2xl">
                     <div className="flex flex-col gap-5 max-w-[50%] w-xs">
@@ -24,14 +24,14 @@ export const PlanAheadPage = () => {
                         We want our guests to feel prepared and enjoy their time here. That’s why we’ve put together a schedule filled with various activities designed to bring us closer and make your stay joyful and memorable.
                         <br />
                         <br />
-                        <span className="text-blue-700 font-semibold cursor-pointer">Check the full itinerary </span>to make sure you
+                        <a href="https://drive.google.com/file/d/1VMfY4_HXAbk4yrr_CtPg383M2O2TuAeS/view?usp=drive_link" target="_blank" className="text-blue-700 font-semibold cursor-pointer">Check the full itinerary </a>to make sure you
                         pack everything you'll need.
                         </p>
                     </div>
                 </div>
             </section>
             <section className="section p-5 flex justify-center">
-                <div className="max-w-2xl flex flex-col gap-10">
+                <div className="max-w-2xl flex flex-col gap-10 p-2.5">
                     <div className="flex flex-col gap-5 w-full">
                         <ReferenceSubtitle id="tiping">
                         <h4>Culture of tiping</h4>

@@ -48,16 +48,10 @@ html {
   font-family: 'NewsReader';
 }
 
-.transition{
-  transition: background-color 5s ease;
-}
 .highlight:target {
   background-color: #fff460; /* Tailwind's yellow-100 */
   transition: background-color 1s ease;
-}
-
-.transparent{
-  background-color: rgba(0, 0, 0, 0);
+  scroll-margin-top: calc(var(--nav-height) + 20px); /* Adjust based on your navbar height */
 }
 
 
