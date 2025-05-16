@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
 export const Countdown = () => {
@@ -36,23 +37,25 @@ export const Countdown = () => {
     return () => clearInterval(interval); // Clean up the interval on unmount
   }, []);
 
+  const t = useTranslations("countdown");
+
   return (
     <div className="w-full flex justify-between font-rouge_script text-white">
       <div className="flex flex-col items-center">
         <div className="text-3xl font-semibold">{countdown.days}</div>
-        <div className="text-2xl">Days</div>
+        <div className="text-2xl">{t('days')}</div>
       </div>
       <div className="flex flex-col items-center">
         <div className="text-3xl font-semibold">{countdown.hours}</div>
-        <div className="text-2xl">Hours</div>
+        <div className="text-2xl">{t('hours')}</div>
       </div>
       <div className="flex flex-col items-center">
         <div className="text-3xl font-semibold">{countdown.minutes}</div>
-        <div className="text-2xl">Minutes</div>
+        <div className="text-2xl">{t('minutes')}</div>
       </div>
       <div className="flex flex-col items-center">
         <div className="text-3xl font-semibold">{countdown.seconds}</div>
-        <div className="text-2xl">Seconds</div>
+        <div className="text-2xl">{t('seconds')}</div>
       </div>
     </div>
   );

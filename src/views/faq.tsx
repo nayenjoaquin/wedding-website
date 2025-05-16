@@ -1,6 +1,6 @@
-import { faqRef } from "@/const/refs"
-import faq from '@/const/faq.json'
-import { FAQItem } from "@/components/faq-item"
+import { faqRef } from "@/public/const/refs"
+import faq from '@/public/const/faq.json'
+import { FAQItem } from "@/src/components/faq-item"
 
 export const FAQView = () => {
     return(

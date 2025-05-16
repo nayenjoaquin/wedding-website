@@ -1,0 +1,82 @@
+{
+    "home": {
+      "h3": "Día de la boda",
+      "save_the_date": "Reserva la fecha"
+    },
+    "countdown": {
+      "h3": "Cuenta regresiva",
+      "days": "días",
+      "hours": "horas",
+      "minutes": "minutos",
+      "seconds": "segundos"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "story": "Nuestra Historia",
+      "vision": "Nuestra Visión",
+      "location": "Ubicación",
+      "bigday": "El Gran Día",
+      "planning": "Planificación",
+      "faq": "Preguntas Frecuentes"
+    },
+    "story": {
+      "title": "NUESTRA HISTORIA",
+      "text1": "Todo comenzó con una aplicación de intercambio de idiomas que nos unió. Chris aprendiendo español, yo mejorando mi inglés. Charlas casuales que se convirtieron en conversaciones profundas, uniendo culturas y corazones.",
+      "text2": "Después de meses de videollamadas, Chris voló a Chile. Desde el momento en que nos conocimos, todo se sintió natural.",
+      "text3": "Su naturaleza divertida y acogedora me hizo sentir cómoda. Coqueteaba, pero no capté ninguna señal hasta que mis amigas me lo hicieron notar.",
+      "text4": "El amor creció en silencio, en pequeños momentos: una risa, una historia a la vez.",
+      "text5": "Supe que lo amaba en una excursión bajo la lluvia. Preparó té, armó nuestra carpa y me mantuvo abrigada cuando más lo necesitaba.",
+      "text6": "Para Chris, el amor se profundizó durante la distancia: llamadas diarias que convirtieron la lejanía en cercanía.",
+      "text7": "Nuestros mejores recuerdos son los más simples: picnics, caminatas y noches acogedoras en casa.",
+      "text8": "La propuesta fue perfecta: en una playa llena de recuerdos, con risas, lágrimas y un fácil “sí”.",
+      "text9": "La positividad y gran corazón de Chris me inspiran cada día. Me hace más valiente.",
+      "text10": "Él admira mi sentido de la aventura: cómo encontramos magia en los momentos más pequeños de la vida.",
+      "text11": "Soñamos con nuevas aventuras: Chile, Corea del Sur y convertirnos en padres de un perrito.",
+      "text12": "Donde sea que la vida nos lleve, mientras estemos juntos, estaremos en casa."
+    },
+    "vision": {
+      "title": "NUESTRA VISIÓN",
+      "desc1": "Queremos que nuestra boda se sienta menos como una formalidad y más como una reunión de nuestros seres queridos. Este es el único día en nuestras vidas en que podremos tener a nuestros amigos y familiares más cercanos juntos en un solo lugar, ¡y queremos aprovecharlo al máximo!",
+      "desc2": "Queremos celebrar nuestro amor y el amor de quienes nos rodean. Queremos crear un espacio donde todos se sientan cómodos, relajados y felices. Queremos compartir nuestra historia con ustedes y crear nuevos recuerdos juntos."
+    },
+    "location": {
+      "title": "UBICACIÓN",
+      "location": "Casa comunitaria Tigiwon",
+      "button": "Abrir en el mapa"
+    },
+    "program": {
+      "title": "PROGRAMA DE LA BODA",
+      "arrival": "Llegada al lugar",
+      "ceremony": "Ceremonia",
+      "dinner": "Cena",
+      "celebration": "Celebración"
+    },
+    "planning": {
+      "title": "PLANIFICACIÓN",
+      "desc": "Para todos nuestros amigos y familiares que viajan desde fuera de EE.UU., aquí hay algunos consejos e información importante para ayudarles a aprovechar al máximo esta experiencia.",
+      "subtitle1": "¿Primera vez en EE.UU.?:",
+      "subtitle2": "Actividades:",
+      "desc1": "Queremos que nuestros invitados se sientan preparados y disfruten su tiempo aquí. Por eso, hemos preparado un calendario con diversas actividades diseñadas para acercarnos y hacer que su estadía sea alegre y memorable.",
+      "desc2": "para asegurarte de empacar todo lo que necesitarás.",
+      "itinerary_link": "Ver el itinerario completo",
+      "li0": "Cultura de las propinas",
+      "li1": "Precios para comer fuera",
+      "li2": "Sin transporte público",
+      "li3": "Diferencias culturales",
+      "li4": "Preparándose para viajar"
+    },
+    "tipping": {
+      "desc": "Dar propina es habitual en EE.UU. en restaurantes, cafés y taxis. Generalmente, deberías dar propina:",
+      "li0": "Meseros: 15-20% de la cuenta.",
+      "li1": "Personal del hotel: $1-2 por noche para el servicio de limpieza.",
+      "li2": "Taxis/Uber: 10% de la tarifa.",
+      "li3": "Barmans: $1-2 por bebida."
+    },
+    "eating_out": {
+      "li0": "Restaurantes informales: $15-20 por persona (sin incluir la propina).",
+      "li1": "Restaurantes de gama media: $20-40 por persona.",
+      "li2": "Alta cocina: $50+ por persona.",
+      "desc": "(Nota: los precios varían según la ubicación, pero estos son estimados generales para áreas como Denver)."
+    }
+  }
+  

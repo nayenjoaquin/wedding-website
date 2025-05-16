@@ -1,7 +1,10 @@
-import { TimeLine } from "@/components/timeline"
-import { storyRef } from "@/const/refs"
+import { TimeLine } from "@/src/components/timeline"
+import { storyRef } from "@/public/const/refs"
+import { useTranslations } from "next-intl";
 
 export const OurStoryPage = () => {
+
+    const t = useTranslations('story');
     const timelineItems = [
         {
             img: 'our-story.png',
@@ -55,7 +58,7 @@ export const OurStoryPage = () => {
     ]
     return(
         <section ref={storyRef} className="section p-5 flex flex-col justify-center items-center gap-10">
-            <h3 className="title">OUR STORY</h3>
+            <h3 className="title">{t('title')}</h3>
             <div className="flex justify-center items-center h-full">
                 <TimeLine content={timelineItems}/>
             </div>

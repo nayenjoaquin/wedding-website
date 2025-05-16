@@ -1,0 +1,83 @@
+{
+    "home": {
+        "h3": "Wedding day",
+        "save_the_date": "Save the date"
+    },
+    "countdown": {
+        "h3": "Countdown",
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds"
+    },
+    "navbar":{
+        "home": "Home",
+        "story": "Our Story",
+        "vision": "Our Vision",
+        "location": "Location",
+        "bigday": "The Big Day",
+        "planning": "Planning Ahead",
+        "faq": "FAQ"
+    },
+    "story":{
+        "title": "OUR STORY",
+        "text1": "It all started with a language exchange app that brought us together. Chris learning Spanish, me improving English. Casual chats turned into deep conversations, bridging cultures and hearts.",
+        "text2": "After months of video calls, Chris flew to Chile. From the moment we met, everything felt natural.",
+        "text3": "His silly, welcoming nature put me at ease. He flirted, but I missed every sign until my friends clued me in.",
+        "text4": "Love grew quietly, in small moments—one laugh, one story at a time.",
+        "text5": "I knew I loved him on a rainy hiking trip. He made tea, set up our tent, and kept me warm when I needed it most.",
+        "text6": "For Chris, love deepened during long-distance—daily calls turning distance into closeness.",
+        "text7": "Our best memories are the simplest—picnics, walks, and cozy nights at home.",
+        "text8": "The proposal was perfect—on a beach full of memories, with laughter, tears, and an easy “yes”.",
+        "text9": "Chris’s positivity and big heart inspire me every day. He makes me braver.",
+        "text10": "He admires my sense of adventure—how we find magic in life’s smallest moments.",
+        "text11": "We dream of new adventures—Chile, South Korea, and becoming dog parents.",
+        "text12": "Wherever life takes us, as long as we're together, we’re home."
+        
+    },
+    "vision":{
+        "title": "OUR VISION",
+        "desc1": "We want our wedding to feel less like a formality and more like a gathering of our loved ones. This is the one day in our lives when we get to have our closest friends and family together in one place, and we want to make the most of it!",
+        "desc2": "We want to celebrate our love and the love of those around us. We want to create a space where everyone can feel comfortable, relaxed, and happy. We want to share our story with you and create new memories together."
+
+    },
+    "location":{
+        "title": "LOCATION",
+        "location": "Tigiwon comunity house",
+        "button": "Open in map"
+    },
+    "program":{
+        "title": "WEDDING PROGRAM",
+        "arrival": "Arrive at the venue",
+        "ceremony": "Ceremony",
+        "dinner": "Dinner",
+        "celebration": "Celebration"
+    },
+    "planning":{
+        "title": "PLANNING AHEAD",
+        "desc": "For all our friends and family traveling from outside the U.S., here are some important tips and information to help you make the most of this experience.",
+        "subtitle1":"First time in the US?:",
+        "subtitle2":"Activities:",
+        "desc1": "We want our guests to feel prepared and enjoy their time here. That’s why we’ve put together a schedule filled with various activities designed to bring us closer and make your stay joyful and memorable.",
+        "desc2": "to make sure you pack everything you'll need.",
+        "itinerary_link": "Check the full itinerary",
+        "li0": "Culture of tiping",
+        "li1": "Eating out prices",
+        "li2": "No public transportation",
+        "li3": "Cultural differences",
+        "li4": "Getting ready to travel"
+    },
+    "tipping":{
+        "desc": "Tipping is customary in the U.S. at restaurants, cafes, and taxis. Generally, you should tip:",
+        "li0": "Waitstaff: 15-20% of the bill.",
+        "li1": "Hotel staff: $1-2 per night for housekeeping.",
+        "li2": "Taxis/Uber: 10% of the fare.",
+        "li3": "Bartenders: $1-2 per drink."
+    },
+    "eating_out":{
+        "li0": "Casual restaurants: $15-20 per person (not including tip).",
+        "li1": "Mid-range restaurants: $20-40 per person.",
+        "li2": "Fine dining: $50+ per person.",
+        "desc": "(Note: prices vary depending on location, but these are general estimates for areas like Denver)."
+    }
+}

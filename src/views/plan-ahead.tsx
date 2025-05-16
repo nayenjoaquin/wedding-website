@@ -1,31 +1,34 @@
-import { ReferenceSubtitle } from "@/components/reference-subtitle"
-import { planRef } from "@/const/refs"
+import { ReferenceSubtitle } from "@/src/components/reference-subtitle"
+import { planRef } from "@/public/const/refs"
+import { useTranslations } from "next-intl";
 
 export const PlanAheadPage = () => {
+
+    const t = useTranslations('planning');
+    const tipping = useTranslations('tipping');
+    const eatingOutPrices = useTranslations('eating_out');
     return(
         <div className="flex flex-col">
             <section ref={planRef} className="section flex flex-col gap-10 justify-center items-center p-5">
-                <h2 className="title mb-10">PLANNING AHEAD</h2>
-                <p className="max-w-2xl">For all our friends and family traveling from outside the U.S., here are some important tips and information to help you make the most of this experience.</p>
+                <h2 className="title mb-10">{t('title')}</h2>
+                <p className="max-w-2xl">{t('desc')}</p>
                 <div className="flex justify-center gap-10 max-w-2xl">
                     <div className="flex flex-col gap-5 max-w-[50%] w-xs">
-                        <h3 className="subtitle">First time in the US?:</h3>
+                        <h3 className="subtitle">{t('subtitle1')}</h3>
                         <ul className="list-disc pl-5">
-                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#tiping">Culture of tiping</a></li>
-                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#eating-out-prices">Eating Out Prices</a></li>
-                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#transport">No Public Transportation</a></li>
-                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#differences">Cultural Differences</a></li>
-                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#getting-ready">Getting ready to travel</a></li>
+                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#tiping">{t('li0')}</a></li>
+                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#eating-out-prices">{t('li1')}</a></li>
+                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#transport">{t('li2')}</a></li>
+                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#differences">{t('li3')}</a></li>
+                            <li className="text-blue-700 font-semibold cursor-pointer"><a href="#getting-ready">{t('li4')}</a></li>
                         </ul>
                     </div>
                     <div className="flex flex-col gap-5 max-w-[50%] w-xs">
-                        <h4 className="subtitle">Activities:</h4>
+                        <h4 className="subtitle">{t('subtitle2')}</h4>
                         <p className="max-w-md">
-                        We want our guests to feel prepared and enjoy their time here. That’s why we’ve put together a schedule filled with various activities designed to bring us closer and make your stay joyful and memorable.
+                        {t('desc1')}<br />
                         <br />
-                        <br />
-                        <a href="https://drive.google.com/file/d/1VMfY4_HXAbk4yrr_CtPg383M2O2TuAeS/view?usp=drive_link" target="_blank" className="text-blue-700 font-semibold cursor-pointer">Check the full itinerary </a>to make sure you
-                        pack everything you'll need.
+                        <a href="https://drive.google.com/file/d/1VMfY4_HXAbk4yrr_CtPg383M2O2TuAeS/view?usp=drive_link" target="_blank" className="text-blue-700 font-semibold cursor-pointer">{t('itinerary_link')} </a>{t('desc2')}
                         </p>
                     </div>
                 </div>
@@ -34,35 +37,35 @@ export const PlanAheadPage = () => {
                 <div className="max-w-2xl flex flex-col gap-10 p-2.5">
                     <div className="flex flex-col gap-5 w-full">
                         <ReferenceSubtitle id="tiping">
-                        <h4>Culture of tiping</h4>
+                        <h4>{t('li0')}</h4>
                         </ReferenceSubtitle>
                         <div>
-                            <p>Tipping is customary in the U.S. at restaurants, cafes, and taxis. Generally, you should tip:</p>
+                            <p>{t('desc')}</p>
                                 
                             <ul className="list-disc pl-2.5">
-                                <li>Waitstaff: 15-20% of the bill.</li>
-                                <li>Hotel staff: $1-2 per night for housekeeping.</li>
-                                <li>Taxis/Uber: 10% of the fare.</li>
-                                <li>Bartenders: $1-2 per drink.</li>
+                                <li>{tipping('li0')}</li>
+                                <li>{tipping('li1')}</li>
+                                <li>{tipping('li2')}</li>
+                                <li>{tipping('li3')}</li>
                                 
                             </ul>
                         </div>
                     </div>
                     <div className="flex flex-col gap-5 w-full">
-                        <ReferenceSubtitle id="eating-out-prices"><h4>Eating Out Prices</h4></ReferenceSubtitle>
+                        <ReferenceSubtitle id="eating-out-prices"><h4>{t('li1')}</h4></ReferenceSubtitle>
                         <div>
                             <ul className="list-disc pl-2.5">
-                                <li>Casual restaurants: $15-20 per person (not including tip).</li>
-                                <li>Mid-range restaurants: $20-40 per person.</li>
-                                <li>Fine dining: $50+ per person.</li>
+                                <li>{eatingOutPrices('li0')}</li>
+                                <li>{eatingOutPrices('li1')}</li>
+                                <li>{eatingOutPrices('li2')}</li>
                             </ul>
                             <p>
-                                (Note: prices vary depending on location, but these are general estimates for areas like Denver).
+                                {eatingOutPrices('desc')}
                             </p>
                         </div>
                     </div>
                     <div className="flex flex-col gap-5 w-full">
-                        <ReferenceSubtitle id="transport"><h4>No Public Transportation</h4></ReferenceSubtitle>
+                        <ReferenceSubtitle id="transport"><h4>{t('li2')}</h4></ReferenceSubtitle>
                         <div>
                             <ul className="list-disc pl-2.5">
                                 <li>In many U.S. cities (including Denver), public transportation options are limited.</li>
@@ -73,7 +76,7 @@ export const PlanAheadPage = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-5 w-full">
-                        <ReferenceSubtitle id="differences"><h4>Cultural Differences</h4></ReferenceSubtitle>
+                        <ReferenceSubtitle id="differences"><h4>{t('li3')}</h4></ReferenceSubtitle>
                         <div>
                             <ul className="list-disc pl-2.5">
                                 <li>Personal space: Americans generally value personal space. Avoid standing too close to someone.</li>
@@ -86,7 +89,7 @@ export const PlanAheadPage = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-10 w-full">
-                        <ReferenceSubtitle id="getting-ready"><h4>Getting ready to travel</h4></ReferenceSubtitle>
+                        <ReferenceSubtitle id="getting-ready"><h4>{t('li4')}</h4></ReferenceSubtitle>
                         <div className="flex flex-col gap-2.5">
                             <h5 className="font-fancy font-medium text-xl">Passport expiration</h5>
                             <p>Ensure your passport is valid for at least six months after your arrival date. Check your passport’s expiration date to avoid any travel disruptions.</p>
