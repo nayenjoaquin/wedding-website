@@ -79,5 +79,64 @@
         "li1": "Mid-range restaurants: $20-40 per person.",
         "li2": "Fine dining: $50+ per person.",
         "desc": "(Note: prices vary depending on location, but these are general estimates for areas like Denver)."
+    },
+    "faq":{
+        "title": "FAQ",
+        "q0": "What is the dress code?",
+        "a0": "Our wedding is a formal-ish event in the mountains. Please wear dressy attire, but keep in mind the outdoor setting! ✅ Suits, dresses, jumpsuits, and dress pants are great choices. 🚫 No jeans, sneakers, or overly casual outfits.",
+        
+        "q1": "Are there any outfit restrictions?",
+        "a1": "Yes! To keep our wedding aesthetic in place: 🚫 No white for men or women. That’s the bride’s color! 🚫 No brown suits for men—that’s the groom’s color.",
+        
+        "q2": "Can I wear heels?",
+        "a2": "You can, but we recommend block heels or wedges since the venue has grassy areas. Thin heels may sink into the ground.",
+        
+        "q3": "Is the wedding indoors or outdoors?",
+        "a3": "The ceremony will be outdoors in the mountains. The reception (dinner & dancing) will be indoors, and there’s a possibility of ending the night outdoors around a campfire!",
+        
+        "q4": "What will the weather be like?",
+        "a4": "Weather in the mountains is unpredictable. We recommend checking the Minturn, Colorado weather forecast for a better idea as the date approaches.",
+        
+        "q5": "Can I bring my kids?",
+        "a5": "Unfortunately, no kids are allowed at our wedding. We love your little ones, but this is an adults-only celebration.",
+        
+        "q6": "Can I bring a plus one?",
+        "a6": "No, only the people listed on the invitation are invited. If someone’s name is not on your invite, they are not included in the guest list.",
+        
+        "q7": "Will there be parking at the venue?",
+        "a7": "Yes! Parking is available on-site. Please carpool if possible to help with space.",
+        
+        "q8": "What’s the best way to get to the venue?",
+        "a8": "You can search Tigiwon Community House on Google Maps, and it will provide the directions. 🚗 On the day of the wedding, signs will be posted along the road leading up the mountain to help guide you.",
+        
+        "q9": "What time should I arrive?",
+        "a9": "The ceremony starts at 3:00 PM sharp. Please arrive no later than 2:50 PM since the venue is at the top of a mountain, and we don’t want guests arriving late. 🚗 Running late? If you arrive between 2:55 PM and 3:30 PM, we kindly ask that you wait in your car until the ceremony is over. You can join us for cocktail hour afterward.",
+        
+        "q10": "Can I smoke or vape at the venue?",
+        "a10": "No. Since we are celebrating in a national forest, we want to be respectful of nature and keep the event smoke-free. We ask that you wait until you leave the venue to smoke or vape.",
+        
+        "q11": "Are there restrooms at the venue?",
+        "a11": "Yes! There are vaulted restrooms (no running water). We’ll do our best to make them as clean and comfortable as possible!",
+        
+        "q12": "Will there be food and drinks?",
+        "a12": "Yes! We’re having a buffet-style BBQ dinner with plenty of delicious options. Drinks will be a grab-and-go style—canned & bottled pre-made drinks instead of a bar.",
+        
+        "q13": "Will there be dancing?",
+        "a13": "Possibly! We’re still finalizing the reception details, but there will definitely be a fun and relaxed atmosphere.",
+        
+        "q14": "Can I take photos during the ceremony?",
+        "a14": "No, the ceremony is phone-free, so please keep cameras & phones away. 📸 BUT—we will announce a 2-5 minute window after the ceremony where guests can take photos before we leave. Please remain seated and take photos from your spot during this time.",
+        
+        "q15": "Are there hotels nearby?",
+        "a15": "If the drive back feels too long (2-3 hours to Denver), we recommend booking accommodations in the area. The closest option is Vail (40 min away). Other options include: 🏔 Aspen, Breckenridge, Keystone, and Silverthorne (all ~1.5 hours away max).",
+        
+        "q16": "Can I bring a gift to the wedding?",
+        "a16": "Since we move countries often, we are not having a traditional gift registry. If you’d like to give us a gift, we would appreciate money and wedding cards so we don’t have to worry about transporting gifts.",
+        
+        "q17": "Will there be an after-party or next-day brunch?",
+        "a17": "We are planning activities before and after the wedding since many guests are traveling from abroad. Activities may include a small hike, bowling, and other fun outings—everyone is welcome to join! Details will be shared closer to the date and will be included in the website.",
+        
+        "q18": "Who do I contact if I have questions on the wedding day?",
+        "a18": "Up to one week before the wedding, you can contact Chris or Claudia for any questions. After that, please reach out to the Best Man or Maid of Honor instead. Their contact info will be available on the Bridal Party page."
     }
 }
