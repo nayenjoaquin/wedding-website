@@ -80,6 +80,52 @@
         "li2": "Fine dining: $50+ per person.",
         "desc": "(Note: prices vary depending on location, but these are general estimates for areas like Denver)."
     },
+    "transportation":{
+        "li": "In many U.S. cities (including Denver), public transportation options are limited.",
+        "desc": "Renting a car is a necessity for getting around, especially in suburban or rural areas."
+    },
+    "differences":{
+        "li0": "Personal space: Americans generally value personal space. Avoid standing too close to someone.",
+        "li1": "Direct communication: People tend to be more direct and less formal in the U.S. than in Chile.",
+        "li2":"Service culture: Americans often interact with service employees more casually, and it's common to ask servers or cashiers about their day."
+    },
+    "passport":{
+        "title": "Passport expiration",
+        "desc": "Ensure your passport is valid for at least six months after your arrival date. Check your passport’s expiration date to avoid any travel disruptions."
+    },
+    "esta":{
+        "title": "Applying for ESTA (Electronic System for Travel Authorization)",
+        "li0": "If you're eligible for the U.S. Visa Waiver Program (VWP), you need to apply for ESTA before traveling. The fee is approximately $21 USD.",
+        "li1": "Apply online, and approval is usually granted within a few minutes, but it’s recommended to apply well in advance.",
+        "li2": "New Chilean passports have been known to not work with it due to the changes made to them."
+    },
+    "visa":{
+        "title": "If You Need a Visa (Tourist Visa)",
+        "li0": "If you’re not eligible for ESTA, you’ll need to apply for a B2 tourist visa at the U.S. Embassy. The visa fee is around $160 USD. It lasts 10 years.",
+        "li1": "You may need to travel to Santiago for an in-person appointment if you’re applying for a new passport."
+    },
+    "insurance":{
+        "title": "Health Insurance",
+        "desc": "Health care in the U.S. is very expensive. It's recommended to buy travel health insurance or ensure you have coverage before your trip."
+    },
+    "flights":{
+        "title": "Booking Flights",
+        "li0": "Book your flight to Denver International Airport (DEN).",
+        "li1": "You can book early to get better deals or check if there are group discounts if you’re traveling with others from Chile."
+    },
+    "accommodation":{
+        "title": "Accommodation",
+        "desc": "Airbnb could be a great option, especially for larger groups. Consider sharing homes or apartments to reduce costs."
+    },
+    "car":{
+        "title": "Rental a car",
+        "li0": "You will need a car to get around, as Uber and taxis can be expensive. You can organize groups of 5-6 people per car to save on rental costs.",
+        "li1": "Chris and Claudia can help by creating WhatsApp groups for people traveling from the same city to coordinate car rentals and share the cost."
+    },
+    "group":{
+        "title": "Group coordination",
+        "desc": "To help everyone, Chris and I will create WhatsApp groups by city (e.g., “Concepción to Colorado” group) to help with shared accommodations, car rentals, and other logistics."
+    },
     "faq":{
         "title": "FAQ",
         "q0": "What is the dress code?",

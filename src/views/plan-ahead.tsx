@@ -7,6 +7,16 @@ export const PlanAheadPage = () => {
     const t = useTranslations('planning');
     const tipping = useTranslations('tipping');
     const eatingOutPrices = useTranslations('eating_out');
+    const transportation = useTranslations('transportation');
+    const differences = useTranslations('differences');
+    const passport = useTranslations('passport');
+    const esta = useTranslations('esta');
+    const visa = useTranslations('visa');
+    const insurance = useTranslations('insurance');
+    const flights = useTranslations('flights');
+    const accommodation = useTranslations('accommodation');
+    const car = useTranslations('car');
+    const group = useTranslations('group');
     return(
         <div className="flex flex-col">
             <section ref={planRef} className="section flex flex-col gap-10 justify-center items-center p-5">
@@ -68,10 +78,10 @@ export const PlanAheadPage = () => {
                         <ReferenceSubtitle id="transport"><h4>{t('li2')}</h4></ReferenceSubtitle>
                         <div>
                             <ul className="list-disc pl-2.5">
-                                <li>In many U.S. cities (including Denver), public transportation options are limited.</li>
+                                <li>{transportation('li')}</li>
                             </ul>
                             <p>
-                                Renting a car is a necessity for getting around, especially in suburban or rural areas.
+                                {transportation('desc')}
                             </p>
                         </div>
                     </div>
@@ -79,61 +89,59 @@ export const PlanAheadPage = () => {
                         <ReferenceSubtitle id="differences"><h4>{t('li3')}</h4></ReferenceSubtitle>
                         <div>
                             <ul className="list-disc pl-2.5">
-                                <li>Personal space: Americans generally value personal space. Avoid standing too close to someone.</li>
-                                <li>Direct communication: People tend to be more direct and less formal in the U.S. than in Chile.</li>
-                                <li>Service culture: Americans often interact with service employees more casually, and it's common to ask servers or cashiers about their day.</li>
+                                <li>{differences('li0')}</li>
+                                <li>{differences('li1')}</li>
+                                <li>{differences('li2')}</li>
                             </ul>
-                            <p>
-                                Renting a car is a necessity for getting around, especially in suburban or rural areas.
-                            </p>
                         </div>
                     </div>
                     <div className="flex flex-col gap-10 w-full">
                         <ReferenceSubtitle id="getting-ready"><h4>{t('li4')}</h4></ReferenceSubtitle>
                         <div className="flex flex-col gap-2.5">
-                            <h5 className="font-fancy font-medium text-xl">Passport expiration</h5>
-                            <p>Ensure your passport is valid for at least six months after your arrival date. Check your passport’s expiration date to avoid any travel disruptions.</p>
+                            <h5 className="font-fancy font-medium text-xl">{passport('title')}</h5>
+                            <p>{passport('desc')}</p>
                         </div>
                         <div className="flex flex-col gap-2.5">
-                            <h5 className="font-fancy font-medium text-xl">Applying for ESTA (Electronic System for Travel Authorization)</h5>
+                            <h5 className="font-fancy font-medium text-xl">{esta('title')}</h5>
                             <ul className="list-disc">
-                                <li>If you're eligible for the U.S. Visa Waiver Program (VWP), you need to apply for ESTA before traveling. The fee is approximately $21 USD.</li>
-                                <li>Apply online, and approval is usually granted within a few minutes, but it’s recommended to apply well in advance.</li>
-                                <li>New Chilean passports have been known to not work with it due to the changes made to them.</li>
+                                <li>{esta('li0')}</li>
+                                <li>{esta('li1')}</li>
+                                <li>{esta('li2')}</li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-2.5">
-                            <h5 className="font-fancy font-medium text-xl">If You Need a Visa (Tourist Visa)</h5>
+                            <h5 className="font-fancy font-medium text-xl">{visa('title')}</h5>
                             <ul className="list-disc">
-                                <li>If you’re not eligible for ESTA, you’ll need to apply for a B2 tourist visa at the U.S. Embassy. The visa fee is around $160 USD. It lasts 10 years.</li>
-                                <li>You may need to travel to Santiago for an in-person appointment if you’re applying for a new passport.</li>
+                                <li>{visa('li0')}</li>
+                                <li>{visa('li1')}</li>
+
                             </ul>
                         </div>
                         <div className="flex flex-col gap-2.5">
-                            <h5 className="font-fancy font-medium text-xl">Health Insurance</h5>
-                            <p>Health care in the U.S. is very expensive. It's recommended to buy travel health insurance or ensure you have coverage before your trip.</p>
+                            <h5 className="font-fancy font-medium text-xl">{insurance('title')}</h5>
+                            <p>{insurance('desc')}</p>
                         </div>
                         <div className="flex flex-col gap-2.5">
-                            <h5 className="font-fancy font-medium text-xl">Booking Flights</h5>
+                            <h5 className="font-fancy font-medium text-xl">{flights('title')}</h5>
                             <ul className="list-disc">
-                                <li>Book your flight to Denver International Airport (DEN).</li>
-                                <li>You can book early to get better deals or check if there are group discounts if you’re traveling with others from Chile.</li>
+                                <li>{flights('li0')}</li>
+                                <li>{flights('li1')}</li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-2.5">
-                            <h5 className="font-fancy font-medium text-xl">Accommodation</h5>
-                            <p>Airbnb could be a great option, especially for larger groups. Consider sharing homes or apartments to reduce costs.</p>
+                            <h5 className="font-fancy font-medium text-xl">{accommodation('title')}</h5>
+                            <p>{accommodation('desc')}</p>
                         </div>
                         <div className="flex flex-col gap-2.5">
-                            <h5 className="font-fancy font-medium text-xl">Renting a car</h5>
+                            <h5 className="font-fancy font-medium text-xl">{car('title')}</h5>
                             <ul className="list-disc">
-                                <li>You will need a car to get around, as Uber and taxis can be expensive. You can organize groups of 5-6 people per car to save on rental costs.</li>
-                                <li>Chris and Claudia can help by creating WhatsApp groups for people traveling from the same city to coordinate car rentals and share the cost.</li>
+                                <li> {car('li0')}</li>
+                                <li> {car('li1')}</li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-2.5">
-                            <h5 className="font-fancy font-medium text-xl">Group coordination</h5>
-                            <p>To help everyone, Chris and I will create WhatsApp groups by city (e.g., “Concepción to Colorado” group) to help with shared accommodations, car rentals, and other logistics.</p>
+                            <h5 className="font-fancy font-medium text-xl">{group('title')}</h5>
+                            <p>{group('desc')}</p>
                         </div>
                     </div>
                 </div>
