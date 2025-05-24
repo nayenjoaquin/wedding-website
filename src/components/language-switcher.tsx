@@ -9,7 +9,7 @@ export default function LanguageSwitcher() {
   const switchLanguage = (newLocale: string) => {
     const segments = pathname.split('/');
     segments[1] = newLocale; // Replace the locale
-    router.push(segments.join('/'));
+    router.replace(segments.join('/'), {scroll: false});
   };
 
   return (
