@@ -1,8 +1,11 @@
 import { faqRef } from "@/public/const/refs"
 import faq from '@/public/const/faq.json'
 import { FAQItem } from "@/src/components/faq-item"
+import { useTranslations } from "next-intl"
 
 export const FAQView = () => {
+
+    const t = useTranslations('faq')
     return(
         <section ref={faqRef}  className="section flex flex-col justify-center items-center gap-10">
             <h3 className="title">FAQ</h3>
@@ -10,7 +13,10 @@ export const FAQView = () => {
             {
                 faq.map(((item, i)=>{
                     return(
-                        <FAQItem item={item} key={i} index={i}/>
+                        <FAQItem item={{
+                            question: t('q'+i),
+                            answer: t('a'+i)
+                        }} key={i} index={i}/>
                     )
                 }))
             }
