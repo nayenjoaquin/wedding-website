@@ -1,0 +1,189 @@
+{
+  "home": {
+    "h3": "Día de la boda",
+    "save_the_date": "Reserva la fecha"
+  },
+  "countdown": {
+    "h3": "Cuenta regresiva",
+    "days": "días",
+    "hours": "horas",
+    "minutes": "minutos",
+    "seconds": "segundos"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "story": "Nuestra Historia",
+    "vision": "Nuestra Visión",
+    "location": "Ubicación",
+    "bigday": "El Gran Día",
+    "planning": "Planificación",
+    "faq": "Preguntas Frecuentes"
+  },
+  "story": {
+    "title": "NUESTRA HISTORIA",
+    "text1": "Todo comenzó con una aplicación de intercambio de idiomas que nos unió. Chris aprendiendo español, yo mejorando mi inglés. Charlas casuales se convirtieron en conversaciones profundas, uniendo culturas y corazones.",
+    "text2": "Después de meses de videollamadas, Chris voló a Chile. Desde el momento en que nos conocimos, todo se sintió natural.",
+    "text3": "Su naturaleza divertida y acogedora me hizo sentir cómoda. Coqueteaba, pero no capté ninguna señal hasta que mis amigas me lo hicieron notar.",
+    "text4": "El amor creció en silencio, en pequeños momentos—una risa, una historia a la vez.",
+    "text5": "Supe que lo amaba en una excursión bajo la lluvia. Preparó té, armó nuestra carpa y me mantuvo abrigada cuando más lo necesitaba.",
+    "text6": "Para Chris, el amor se profundizó durante la distancia—llamadas diarias que convirtieron la lejanía en cercanía.",
+    "text7": "Nuestros mejores recuerdos son los más simples—picnics, caminatas y noches acogedoras en casa.",
+    "text8": "La propuesta fue perfecta—en una playa llena de recuerdos, con risas, lágrimas y un fácil “sí”.",
+    "text9": "La positividad y gran corazón de Chris me inspiran cada día. Me hace más valiente.",
+    "text10": "Él admira mi sentido de la aventura—cómo encontramos magia en los momentos más pequeños de la vida.",
+    "text11": "Soñamos con nuevas aventuras—Chile, Corea del Sur y convertirnos en padres de un perrito.",
+    "text12": "A donde sea que la vida nos lleve, mientras estemos juntos, estaremos en casa."
+  },
+  "vision": {
+    "title": "NUESTRA VISIÓN",
+    "desc1": "Queremos que nuestra boda se sienta menos como una formalidad y más como una reunión de nuestros seres queridos. Este es el único día en nuestras vidas en el que podemos tener a nuestros amigos y familiares más cercanos juntos en un solo lugar, ¡y queremos aprovecharlo al máximo!",
+    "desc2": "Queremos celebrar nuestro amor y el amor de quienes nos rodean. Queremos crear un espacio donde todos se sientan cómodos, relajados y felices. Queremos compartir nuestra historia con ustedes y crear nuevos recuerdos juntos."
+  },
+  "location": {
+    "title": "UBICACIÓN",
+    "location": "Casa Comunitaria Tigiwon",
+    "button": "Abrir en el mapa"
+  },
+  "program": {
+    "title": "PROGRAMA DE LA BODA",
+    "arrival": "Llegada al lugar",
+    "ceremony": "Ceremonia",
+    "dinner": "Cena",
+    "celebration": "Celebración"
+  },
+  "planning": {
+    "title": "PLANIFICACIÓN",
+    "desc": "Para todos nuestros amigos y familiares que viajan desde fuera de los EE. UU., aquí hay algunos consejos e información importantes para ayudarles a aprovechar al máximo esta experiencia.",
+    "subtitle1": "¿Primera vez en EE. UU.?:",
+    "subtitle2": "Actividades:",
+    "desc1": "Queremos que nuestros invitados se sientan preparados y disfruten su tiempo aquí. Por eso, hemos preparado un cronograma lleno de diversas actividades diseñadas para acercarnos y hacer que su estadía sea alegre e inolvidable.",
+    "desc2": "para asegurarte de empacar todo lo que necesitarás.",
+    "itinerary_link": "Ver el itinerario completo",
+    "li0": "Cultura de las propinas",
+    "li1": "Precios al comer fuera",
+    "li2": "Sin transporte público",
+    "li3": "Diferencias culturales",
+    "li4": "Preparativos para el viaje"
+  },
+  "tipping": {
+    "desc": "Dar propina es habitual en EE. UU. en restaurantes, cafeterías y taxis. Generalmente, deberías dar propina:",
+    "li0": "Meseros: 15-20% de la cuenta.",
+    "li1": "Personal de hotel: $1-2 por noche para el servicio de limpieza.",
+    "li2": "Taxis/Uber: 10% de la tarifa.",
+    "li3": "Bartenders: $1-2 por bebida."
+  },
+  "eating_out": {
+    "li0": "Restaurantes casuales: $15-20 por persona (sin incluir propina).",
+    "li1": "Restaurantes de gama media: $20-40 por persona.",
+    "li2": "Alta cocina: $50+ por persona.",
+    "desc": "(Nota: los precios varían según la ubicación, pero estas son estimaciones generales para áreas como Denver)."
+  },
+  "transportation": {
+    "li": "En muchas ciudades de EE. UU. (incluyendo Denver), las opciones de transporte público son limitadas.",
+    "desc": "Alquilar un auto es una necesidad para desplazarse, especialmente en áreas suburbanas o rurales."
+  },
+  "differences": {
+    "li0": "Espacio personal: Los estadounidenses generalmente valoran el espacio personal. Evita pararte demasiado cerca de alguien.",
+    "li1": "Comunicación directa: Las personas tienden a ser más directas y menos formales en EE. UU. que en Chile.",
+    "li2": "Cultura del servicio: Los estadounidenses a menudo interactúan con los empleados de servicio de manera más casual, y es común preguntar a los meseros o cajeros sobre su día."
+  },
+  "passport": {
+    "title": "Vencimiento del pasaporte",
+    "desc": "Asegúrate de que tu pasaporte sea válido por al menos seis meses después de tu fecha de llegada. Verifica la fecha de vencimiento de tu pasaporte para evitar cualquier interrupción en tu viaje."
+  },
+  "esta": {
+    "title": "Solicitar ESTA (Sistema Electrónico para la Autorización de Viaje)",
+    "li0": "Si eres elegible para el Programa de Exención de Visa de EE. UU. (VWP), necesitas solicitar ESTA antes de viajar. La tarifa es de aproximadamente $21 USD.",
+    "li1": "Solicita en línea, y la aprobación generalmente se otorga en pocos minutos, pero se recomienda solicitar con anticipación.",
+    "li2": "Se ha sabido que los nuevos pasaportes chilenos no funcionan con él debido a los cambios realizados en ellos."
+  },
+  "visa": {
+    "title": "Si necesitas una visa (Visa de Turista)",
+    "li0": "Si no eres elegible para ESTA, necesitarás solicitar una visa de turista B2 en la Embajada de EE. UU. La tarifa de la visa es de alrededor de $160 USD. Tiene una duración de 10 años.",
+    "li1": "Es posible que necesites viajar a Santiago para una cita en persona si estás solicitando un nuevo pasaporte."
+  },
+  "insurance": {
+    "title": "Seguro de salud",
+    "desc": "La atención médica en EE. UU. es muy costosa. Se recomienda comprar un seguro de salud para viajes o asegurarte de tener cobertura antes de tu viaje."
+  },
+  "flights": {
+    "title": "Reservar vuelos",
+    "li0": "Reserva tu vuelo al Aeropuerto Internacional de Denver (DEN).",
+    "li1": "Puedes reservar con anticipación para obtener mejores ofertas o verificar si hay descuentos grupales si viajas con otros desde Chile."
+  },
+  "accommodation": {
+    "title": "Alojamiento",
+    "desc": "Airbnb podría ser una excelente opción, especialmente para grupos más grandes. Considera compartir casas o apartamentos para reducir costos."
+  },
+  "car": {
+    "title": "Alquilar un auto",
+    "li0": "Necesitarás un auto para desplazarte, ya que Uber y los taxis pueden ser costosos. Puedes organizar grupos de 5-6 personas por auto para ahorrar en costos de alquiler.",
+    "li1": "Chris y Claudia pueden ayudar creando grupos de WhatsApp para personas que viajan desde la misma ciudad para coordinar el alquiler de autos y compartir los costos."
+  },
+  "group": {
+    "title": "Coordinación de grupo",
+    "desc": "Para ayudar a todos, Chris y yo crearemos grupos de WhatsApp por ciudad (por ejemplo, grupo “Concepción a Colorado”) para ayudar con alojamientos compartidos, alquiler de autos y otras logísticas."
+  },
+  "faq": {
+    "title": "PREGUNTAS FRECUENTES",
+    "q0": "¿Cuál es el código de vestimenta?",
+    "a0": "Nuestra boda es un evento semiformal en las montañas. Por favor, usa ropa elegante, ¡pero ten en cuenta que será al aire libre! ✅ Trajes, vestidos, monos y pantalones de vestir son buenas opciones. 🚫 No se permiten jeans, zapatillas deportivas ni atuendos demasiado informales.",
+    
+    "q1": "¿Hay restricciones de vestimenta?",
+    "a1": "¡Sí! Para mantener la estética de nuestra boda: 🚫 No se permite usar blanco, ni para hombres ni para mujeres. ¡Ese es el color de la novia! 🚫 No se permiten trajes marrones para hombres—¡ese es el color del novio!",
+    
+    "q2": "¿Puedo usar tacones?",
+    "a2": "Puedes, pero recomendamos tacones de bloque o cuñas, ya que el lugar tiene áreas con césped. Los tacones delgados pueden hundirse en el suelo.",
+    
+    "q3": "¿La boda será en interior o exterior?",
+    "a3": "La ceremonia será al aire libre, en las montañas. La recepción (cena y baile) será en interiores, ¡y existe la posibilidad de terminar la noche alrededor de una fogata al aire libre!",
+    
+    "q4": "¿Cómo será el clima?",
+    "a4": "El clima en las montañas es impredecible. Recomendamos revisar el pronóstico del tiempo para Minturn, Colorado, a medida que se acerque la fecha.",
+    
+    "q5": "¿Puedo llevar a mis hijos?",
+    "a5": "Lamentablemente, no se permiten niños en nuestra boda. Amamos a tus pequeños, pero esta celebración es solo para adultos.",
+    
+    "q6": "¿Puedo llevar un acompañante?",
+    "a6": "No, solo las personas mencionadas en la invitación están invitadas. Si el nombre de alguien no está en tu invitación, no está incluido en la lista de invitados.",
+    
+    "q7": "¿Habrá estacionamiento en el lugar?",
+    "a7": "¡Sí! Habrá estacionamiento disponible en el lugar. Por favor, compartan auto si es posible para ayudar con el espacio.",
+    
+    "q8": "¿Cuál es la mejor forma de llegar al lugar?",
+    "a8": "Puedes buscar 'Tigiwon Community House' en Google Maps y te dará las indicaciones. 🚗 El día de la boda, habrá señales en el camino hacia la montaña para ayudarte a llegar.",
+    
+    "q9": "¿A qué hora debo llegar?",
+    "a9": "La ceremonia comienza puntualmente a las 3:00 PM. Por favor, llega a más tardar a las 2:50 PM, ya que el lugar está en lo alto de una montaña y no queremos que llegues tarde. 🚗 ¿Llegas entre las 2:55 y las 3:30 PM? Te pedimos amablemente que esperes en tu auto hasta que la ceremonia termine. Después podrás unirte a la hora del cóctel.",
+    
+    "q10": "¿Puedo fumar o vapear en el lugar?",
+    "a10": "No. Como estamos celebrando en un bosque nacional, queremos ser respetuosos con la naturaleza y mantener el evento libre de humo. Te pedimos que esperes a salir del lugar para fumar o vapear.",
+    
+    "q11": "¿Habrá baños en el lugar?",
+    "a11": "¡Sí! Habrá baños de tipo letrina (sin agua corriente). ¡Haremos todo lo posible para que estén limpios y cómodos!",
+    
+    "q12": "¿Habrá comida y bebida?",
+    "a12": "¡Sí! Tendremos una cena tipo buffet estilo BBQ con muchas opciones deliciosas. Las bebidas estarán disponibles en formato autoservicio—bebidas enlatadas y embotelladas en lugar de un bar.",
+    
+    "q13": "¿Habrá baile?",
+    "a13": "¡Posiblemente! Aún estamos afinando los detalles de la recepción, pero sin duda habrá un ambiente relajado y divertido.",
+    
+    "q14": "¿Puedo tomar fotos durante la ceremonia?",
+    "a14": "No, la ceremonia será libre de teléfonos, así que por favor guarda tu cámara y tu celular. 📸 PERO—habrá una ventana de 2 a 5 minutos justo después de la ceremonia para que los invitados puedan tomar fotos antes de que nos vayamos. Por favor, permanece sentado y toma las fotos desde tu lugar en ese momento.",
+    
+    "q15": "¿Hay hoteles cerca?",
+    "a15": "Si el viaje de regreso se te hace muy largo (2–3 horas hasta Denver), recomendamos reservar alojamiento en la zona. La opción más cercana es Vail (a 40 minutos). Otras opciones incluyen: 🏔 Aspen, Breckenridge, Keystone y Silverthorne (todas a un máximo de ~1.5 horas).",
+    
+    "q16": "¿Puedo llevar un regalo a la boda?",
+    "a16": "Como nos mudamos de país con frecuencia, no tenemos una lista de regalos tradicional. Si deseas darnos un regalo, agradeceremos dinero en efectivo o tarjetas de boda, así evitamos preocuparnos por transportar regalos físicos.",
+    
+    "q17": "¿Habrá una fiesta posterior o brunch al día siguiente?",
+    "a17": "Estamos planeando actividades antes y después de la boda, ya que muchos invitados vienen desde el extranjero. Las actividades podrían incluir una caminata corta, bolos y otras salidas divertidas—¡todos están invitados! Compartiremos los detalles más cerca de la fecha en este sitio web.",
+    
+    "q18": "¿A quién contacto si tengo preguntas el día de la boda?",
+    "a18": "Hasta una semana antes de la boda, puedes contactar a Chris o Claudia si tienes preguntas. Después de eso, por favor comunícate con el Padrino o la Madrina de honor. Su información de contacto estará disponible en la página de la fiesta nupcial."
+  }
+
+
+
+}

@@ -3,16 +3,17 @@
 import { useState } from "react"
 import { NavBarItem } from "./nav-bar-item"
 import { Menu, X } from "lucide-react"
-import { faqRef, homeRef, locationRef, planRef, programRef, storyRef, visionRef } from "@/const/refs"
+import { faqRef, homeRef, locationRef, planRef, programRef, storyRef, visionRef } from "@/public/const/refs"
+import LanguageSwitcher from "./language-switcher"
 
 const Items=[
-    {name: "Home", ref: homeRef},
-    {name:'Our story', ref: storyRef},
-    {name: 'Our vision', ref: visionRef},
-    {name: "Location", ref: locationRef},
-    {name: "The big day", ref: programRef},
-    {name: 'Planning ahead', ref: planRef},
-    {name:'FAQ', ref: faqRef}
+    {name: "home", ref: homeRef},
+    {name:'story', ref: storyRef},
+    {name: 'vision', ref: visionRef},
+    {name: "location", ref: locationRef},
+    {name: "bigday", ref: programRef},
+    {name: 'planning', ref: planRef},
+    {name:'faq', ref: faqRef}
 ]
 
 export const NavBar = () => {
@@ -46,6 +47,7 @@ export const NavBar = () => {
                 {Items.map((item) => (
                     <NavBarItem title={item.name} ref={item.ref} key={item.name} />
                 ))}
+                <LanguageSwitcher/>
             </nav>
         </header>
         </>

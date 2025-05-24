@@ -1,0 +1,188 @@
+{
+    "home": {
+        "h3": "Wedding day",
+        "save_the_date": "Save the date"
+    },
+    "countdown": {
+        "h3": "Countdown",
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds"
+    },
+    "navbar":{
+        "home": "Home",
+        "story": "Our Story",
+        "vision": "Our Vision",
+        "location": "Location",
+        "bigday": "The Big Day",
+        "planning": "Planning Ahead",
+        "faq": "FAQ"
+    },
+    "story":{
+        "title": "OUR STORY",
+        "text1": "It all started with a language exchange app that brought us together. Chris learning Spanish, me improving English. Casual chats turned into deep conversations, bridging cultures and hearts.",
+        "text2": "After months of video calls, Chris flew to Chile. From the moment we met, everything felt natural.",
+        "text3": "His silly, welcoming nature put me at ease. He flirted, but I missed every sign until my friends clued me in.",
+        "text4": "Love grew quietly, in small moments—one laugh, one story at a time.",
+        "text5": "I knew I loved him on a rainy hiking trip. He made tea, set up our tent, and kept me warm when I needed it most.",
+        "text6": "For Chris, love deepened during long-distance—daily calls turning distance into closeness.",
+        "text7": "Our best memories are the simplest—picnics, walks, and cozy nights at home.",
+        "text8": "The proposal was perfect—on a beach full of memories, with laughter, tears, and an easy “yes”.",
+        "text9": "Chris’s positivity and big heart inspire me every day. He makes me braver.",
+        "text10": "He admires my sense of adventure—how we find magic in life’s smallest moments.",
+        "text11": "We dream of new adventures—Chile, South Korea, and becoming dog parents.",
+        "text12": "Wherever life takes us, as long as we're together, we’re home."
+        
+    },
+    "vision":{
+        "title": "OUR VISION",
+        "desc1": "We want our wedding to feel less like a formality and more like a gathering of our loved ones. This is the one day in our lives when we get to have our closest friends and family together in one place, and we want to make the most of it!",
+        "desc2": "We want to celebrate our love and the love of those around us. We want to create a space where everyone can feel comfortable, relaxed, and happy. We want to share our story with you and create new memories together."
+
+    },
+    "location":{
+        "title": "LOCATION",
+        "location": "Tigiwon comunity house",
+        "button": "Open in map"
+    },
+    "program":{
+        "title": "WEDDING PROGRAM",
+        "arrival": "Arrive at the venue",
+        "ceremony": "Ceremony",
+        "dinner": "Dinner",
+        "celebration": "Celebration"
+    },
+    "planning":{
+        "title": "PLANNING AHEAD",
+        "desc": "For all our friends and family traveling from outside the U.S., here are some important tips and information to help you make the most of this experience.",
+        "subtitle1":"First time in the US?:",
+        "subtitle2":"Activities:",
+        "desc1": "We want our guests to feel prepared and enjoy their time here. That’s why we’ve put together a schedule filled with various activities designed to bring us closer and make your stay joyful and memorable.",
+        "desc2": "to make sure you pack everything you'll need.",
+        "itinerary_link": "Check the full itinerary",
+        "li0": "Culture of tiping",
+        "li1": "Eating out prices",
+        "li2": "No public transportation",
+        "li3": "Cultural differences",
+        "li4": "Getting ready to travel"
+    },
+    "tipping":{
+        "desc": "Tipping is customary in the U.S. at restaurants, cafes, and taxis. Generally, you should tip:",
+        "li0": "Waitstaff: 15-20% of the bill.",
+        "li1": "Hotel staff: $1-2 per night for housekeeping.",
+        "li2": "Taxis/Uber: 10% of the fare.",
+        "li3": "Bartenders: $1-2 per drink."
+    },
+    "eating_out":{
+        "li0": "Casual restaurants: $15-20 per person (not including tip).",
+        "li1": "Mid-range restaurants: $20-40 per person.",
+        "li2": "Fine dining: $50+ per person.",
+        "desc": "(Note: prices vary depending on location, but these are general estimates for areas like Denver)."
+    },
+    "transportation":{
+        "li": "In many U.S. cities (including Denver), public transportation options are limited.",
+        "desc": "Renting a car is a necessity for getting around, especially in suburban or rural areas."
+    },
+    "differences":{
+        "li0": "Personal space: Americans generally value personal space. Avoid standing too close to someone.",
+        "li1": "Direct communication: People tend to be more direct and less formal in the U.S. than in Chile.",
+        "li2":"Service culture: Americans often interact with service employees more casually, and it's common to ask servers or cashiers about their day."
+    },
+    "passport":{
+        "title": "Passport expiration",
+        "desc": "Ensure your passport is valid for at least six months after your arrival date. Check your passport’s expiration date to avoid any travel disruptions."
+    },
+    "esta":{
+        "title": "Applying for ESTA (Electronic System for Travel Authorization)",
+        "li0": "If you're eligible for the U.S. Visa Waiver Program (VWP), you need to apply for ESTA before traveling. The fee is approximately $21 USD.",
+        "li1": "Apply online, and approval is usually granted within a few minutes, but it’s recommended to apply well in advance.",
+        "li2": "New Chilean passports have been known to not work with it due to the changes made to them."
+    },
+    "visa":{
+        "title": "If You Need a Visa (Tourist Visa)",
+        "li0": "If you’re not eligible for ESTA, you’ll need to apply for a B2 tourist visa at the U.S. Embassy. The visa fee is around $160 USD. It lasts 10 years.",
+        "li1": "You may need to travel to Santiago for an in-person appointment if you’re applying for a new passport."
+    },
+    "insurance":{
+        "title": "Health Insurance",
+        "desc": "Health care in the U.S. is very expensive. It's recommended to buy travel health insurance or ensure you have coverage before your trip."
+    },
+    "flights":{
+        "title": "Booking Flights",
+        "li0": "Book your flight to Denver International Airport (DEN).",
+        "li1": "You can book early to get better deals or check if there are group discounts if you’re traveling with others from Chile."
+    },
+    "accommodation":{
+        "title": "Accommodation",
+        "desc": "Airbnb could be a great option, especially for larger groups. Consider sharing homes or apartments to reduce costs."
+    },
+    "car":{
+        "title": "Rental a car",
+        "li0": "You will need a car to get around, as Uber and taxis can be expensive. You can organize groups of 5-6 people per car to save on rental costs.",
+        "li1": "Chris and Claudia can help by creating WhatsApp groups for people traveling from the same city to coordinate car rentals and share the cost."
+    },
+    "group":{
+        "title": "Group coordination",
+        "desc": "To help everyone, Chris and I will create WhatsApp groups by city (e.g., “Concepción to Colorado” group) to help with shared accommodations, car rentals, and other logistics."
+    },
+    "faq":{
+        "title": "FAQ",
+        "q0": "What is the dress code?",
+        "a0": "Our wedding is a formal-ish event in the mountains. Please wear dressy attire, but keep in mind the outdoor setting! ✅ Suits, dresses, jumpsuits, and dress pants are great choices. 🚫 No jeans, sneakers, or overly casual outfits.",
+        
+        "q1": "Are there any outfit restrictions?",
+        "a1": "Yes! To keep our wedding aesthetic in place: 🚫 No white for men or women. That’s the bride’s color! 🚫 No brown suits for men—that’s the groom’s color.",
+        
+        "q2": "Can I wear heels?",
+        "a2": "You can, but we recommend block heels or wedges since the venue has grassy areas. Thin heels may sink into the ground.",
+        
+        "q3": "Is the wedding indoors or outdoors?",
+        "a3": "The ceremony will be outdoors in the mountains. The reception (dinner & dancing) will be indoors, and there’s a possibility of ending the night outdoors around a campfire!",
+        
+        "q4": "What will the weather be like?",
+        "a4": "Weather in the mountains is unpredictable. We recommend checking the Minturn, Colorado weather forecast for a better idea as the date approaches.",
+        
+        "q5": "Can I bring my kids?",
+        "a5": "Unfortunately, no kids are allowed at our wedding. We love your little ones, but this is an adults-only celebration.",
+        
+        "q6": "Can I bring a plus one?",
+        "a6": "No, only the people listed on the invitation are invited. If someone’s name is not on your invite, they are not included in the guest list.",
+        
+        "q7": "Will there be parking at the venue?",
+        "a7": "Yes! Parking is available on-site. Please carpool if possible to help with space.",
+        
+        "q8": "What’s the best way to get to the venue?",
+        "a8": "You can search Tigiwon Community House on Google Maps, and it will provide the directions. 🚗 On the day of the wedding, signs will be posted along the road leading up the mountain to help guide you.",
+        
+        "q9": "What time should I arrive?",
+        "a9": "The ceremony starts at 3:00 PM sharp. Please arrive no later than 2:50 PM since the venue is at the top of a mountain, and we don’t want guests arriving late. 🚗 Running late? If you arrive between 2:55 PM and 3:30 PM, we kindly ask that you wait in your car until the ceremony is over. You can join us for cocktail hour afterward.",
+        
+        "q10": "Can I smoke or vape at the venue?",
+        "a10": "No. Since we are celebrating in a national forest, we want to be respectful of nature and keep the event smoke-free. We ask that you wait until you leave the venue to smoke or vape.",
+        
+        "q11": "Are there restrooms at the venue?",
+        "a11": "Yes! There are vaulted restrooms (no running water). We’ll do our best to make them as clean and comfortable as possible!",
+        
+        "q12": "Will there be food and drinks?",
+        "a12": "Yes! We’re having a buffet-style BBQ dinner with plenty of delicious options. Drinks will be a grab-and-go style—canned & bottled pre-made drinks instead of a bar.",
+        
+        "q13": "Will there be dancing?",
+        "a13": "Possibly! We’re still finalizing the reception details, but there will definitely be a fun and relaxed atmosphere.",
+        
+        "q14": "Can I take photos during the ceremony?",
+        "a14": "No, the ceremony is phone-free, so please keep cameras & phones away. 📸 BUT—we will announce a 2-5 minute window after the ceremony where guests can take photos before we leave. Please remain seated and take photos from your spot during this time.",
+        
+        "q15": "Are there hotels nearby?",
+        "a15": "If the drive back feels too long (2-3 hours to Denver), we recommend booking accommodations in the area. The closest option is Vail (40 min away). Other options include: 🏔 Aspen, Breckenridge, Keystone, and Silverthorne (all ~1.5 hours away max).",
+        
+        "q16": "Can I bring a gift to the wedding?",
+        "a16": "Since we move countries often, we are not having a traditional gift registry. If you’d like to give us a gift, we would appreciate money and wedding cards so we don’t have to worry about transporting gifts.",
+        
+        "q17": "Will there be an after-party or next-day brunch?",
+        "a17": "We are planning activities before and after the wedding since many guests are traveling from abroad. Activities may include a small hike, bowling, and other fun outings—everyone is welcome to join! Details will be shared closer to the date and will be included in the website.",
+        
+        "q18": "Who do I contact if I have questions on the wedding day?",
+        "a18": "Up to one week before the wedding, you can contact Chris or Claudia for any questions. After that, please reach out to the Best Man or Maid of Honor instead. Their contact info will be available on the Bridal Party page."
+    }
+}
