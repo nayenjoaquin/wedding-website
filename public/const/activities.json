@@ -1,0 +1,176 @@
+[
+    {
+        "label": "Sept 26",
+        "key": "sept26",
+        "activities":[
+            {
+                "key": "sept26-1",
+                "time": "07:30 PM"
+            },
+            {
+                "key": "sept26-2",
+                "time": "09:00 PM"
+            }
+        ]
+    },
+    {
+        "label": "Sept 27",
+        "key": "sept27",
+        "activities":[
+            {
+                "key": "sept27-1",
+                "time": "09:00 AM"
+            },
+            {
+                "key": "sept27-2",
+                "time": "09:00 PM"
+            }
+        ]
+    },
+    {
+        "label": "Sept 28",
+        "key": "sept28",
+        "activities":[
+            {
+                "key": "sept28-1",
+                "time": "09:00 AM"
+            },
+            {
+                "key": "sept28-2",
+                "time": "02:30 PM"
+            }
+        ]
+    },
+    {
+        "label": "Sept 29",
+        "key": "sept29",
+        "activities":[
+            {
+                "key": "sept29-1",
+                "time": "09:00 AM"
+            },
+            {
+                "key": "sept29-2",
+                "time": "01:00 PM"
+            },
+            {
+                "key": "sept29-3",
+                "time": "04:00 PM"
+            },
+            {
+                "key": "sept29-4",
+                "time": ""
+            }
+        ]
+    },
+    {
+        "label": "Sept 30",
+        "key": "sept30",
+        "activities":[
+            {
+                "key": "sept30-1",
+                "time": ""
+            }
+        ]
+    },
+    {
+        "label": "Oct 1",
+        "key": "oct1",
+        "activities":[
+            {
+                "key": "oct1-1",
+                "time": "10:00 AM"
+            },
+            {
+                "key": "oct1-2",
+                "time": ""
+            },
+            {
+                "key": "oct1-3",
+                "time": ""
+            },
+            {
+                "key": "oct1-4",
+                "time": "08:00 PM"
+            }
+        ]
+    },
+    {
+        "label": "Oct 2",
+        "key": "oct2",
+        "activities":[
+            {
+                "key": "oct2-1",
+                "time": "08:30 AM"
+            },
+            {
+                "key": "oct2-2",
+                "time": ""
+            }
+        ]
+    },
+    {
+        "label": "Oct 3",
+        "key": "oct3",
+        "activities":[
+            {
+                "key": "oct3-1",
+                "time": "10:00 AM"
+            },
+            {
+                "key": "oct3-2",
+                "time": ""
+            },
+
+            {
+                "key": "oct3-3",
+                "time": ""
+            },
+            {
+                "key": "oct3-4",
+                "time": ""
+            }
+        ]
+    },
+    {
+        "label": "Oct 4",
+        "key": "oct4",
+        "activities":[
+            {
+                "key": "oct4-1",
+                "time": "08:30 AM"
+            },
+            {
+                "key": "oct4-2",
+                "time": "10:30 AM"
+            },
+            {
+                "key": "oct4-3",
+                "time": "01:30 PM"
+            },
+            {
+                "key": "oct4-4",
+                "time": "04:00 PM"
+            },
+            {
+                "key": "oct4-5",
+                "time": "08:00 PM"
+            }
+        ]
+    },
+    {
+        "label": "Oct 5",
+        "key": "oct5",
+        "activities":[
+            {
+                "key": "oct5-1",
+                "time": "09:30 AM"
+            },
+            {
+                "key": "oct5-2",
+                "time": ""
+            }
+        ]
+    }
+
+]

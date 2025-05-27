@@ -20,7 +20,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider>
-          <NavBar />
+          <NavBar locale={locale} />
           {children}
         </NextIntlClientProvider>
 
