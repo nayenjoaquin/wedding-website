@@ -1,7 +1,7 @@
 {
   "home": {
     "h3": "Día de la boda",
-    "save_the_date": "Reserva la fecha"
+    "save_the_date": "Guarda la fecha"
   },
   "countdown": {
     "h3": "Cuenta regresiva",
@@ -12,10 +12,11 @@
   },
   "navbar": {
     "home": "Inicio",
+    "activities": "Actividades",
     "story": "Nuestra Historia",
     "vision": "Nuestra Visión",
     "location": "Ubicación",
-    "bigday": "El Gran Día",
+    "bigday": "La boda",
     "planning": "Planificación",
     "faq": "Preguntas Frecuentes"
   },
@@ -41,7 +42,7 @@
   },
   "location": {
     "title": "UBICACIÓN",
-    "location": "Casa Comunitaria Tigiwon",
+    "location": "Tigiwon comunity house",
     "button": "Abrir en el mapa"
   },
   "program": {
@@ -182,6 +183,48 @@
     
     "q18": "¿A quién contacto si tengo preguntas el día de la boda?",
     "a18": "Hasta una semana antes de la boda, puedes contactar a Chris o Claudia si tienes preguntas. Después de eso, por favor comunícate con el Padrino o la Madrina de honor. Su información de contacto estará disponible en la página de la fiesta nupcial."
+  },
+  "activities": {
+    "title": "ACTIVIDADES",
+    "desc": "Queremos que nuestros invitados se sientan preparados y disfruten su estadía aquí. Por eso hemos organizado un calendario lleno de actividades diseñadas para acercarnos y hacer que su experiencia sea alegre e inolvidable.",
+    "sept26": "Día 1: Viernes, 26 de septiembre",
+    "sept27": "Día 2: Sábado, 27 de septiembre",
+    "sept28": "Día 3: Domingo, 28 de septiembre",
+    "sept29": "Día 4: Lunes, 29 de septiembre",
+    "sept30": "Día 5: Martes, 30 de septiembre",
+    "oct1": "Día 6: Miércoles, 1 de octubre",
+    "oct2": "Día 7: Jueves, 2 de octubre",
+    "oct3": "Día 8: Viernes, 3 de octubre",
+    "oct4": "Día 9: Sábado, 4 de octubre",
+    "oct5": "Día 10: Domingo, 5 de octubre",
+    "sept26-1": "Cena ligera en casa (opcional delivery o algo preparado)",
+    "sept26-2": "Bowling cerca de Brighton 🎳 (opcional) (Boondocks Food and Fun - Northglenn)",
+    "sept27-1": "Compras en Denver Premium Outlets (Thornton, cerca de Brighton) 🛍",
+    "sept27-2": "Cine al aire libre (opcional) 🎬 (Lugar sugerido: 88 Drive-In Theater)",
+    "sept28-1": "Paseo a Boulder – Pearl Street Mall, cafés, compras",
+    "sept28-2": "Visita a Garden of the Gods o Red Rocks Amphitheater – Caminatas, fotos, picnic",
+    "sept29-1": "Viaje de Brighton a Beaver Creek (aprox. 3 horas)",
+    "sept29-2": "Visita a Vail/Beaver Creek (opcional)",
+    "sept29-3": "Preparación y decoración en Tigiwon Community House + Cena/picnic de ensayo 🍽",
+    "sept29-4": "Noche en Airbnb en Beaver Creek",
+    "sept30-1": "Día de la boda 💍🎉",
+    "oct1-1": "Check-out y regreso a Brighton",
+    "oct1-2": "Parada opcional en outlets de Silverthorne 🛍 o Georgetown Loop Railroad – Tren Histórico del Oeste",
+    "oct1-3": "Tarde libre en casa para descansar",
+    "oct1-4": "Juegos o noche tranquila en familia 🎲",
+    "oct2-1": "Excursión a Rocky Mountain National Park + Estes Park",
+    "oct2-2": "Caminatas suaves, fotos, picnic, compras en el pueblo 🦌",
+    "oct3-1": "Día en Denver: Union Station, Capitolio, 16th Street Mall",
+    "oct3-2": "Almuerzo en Denver Milk Market o Stanley Marketplace, o comida rápida (Cava, In-N-Out)",
+    "oct3-3": "Compras y recuerdos",
+    "oct3-4": "Opcional: Denver Premium Outlets nuevamente, TJ Maxx",
+    "oct4-1": "Salida desde Brighton 🚗",
+    "oct4-2": "Garden of the Gods – Caminata suave, fotos y centro de visitantes 🏞",
+    "oct4-3": "Manitou Springs – Almuerzo, paseo por el pueblo, compras locales 🛍🍽",
+    "oct4-4": "Outlets at Castle Rock – Tiempo para compras con descuentos 🛒",
+    "oct4-5": "Regreso a Brighton y cena libre 🍽🏡",
+    "oct5-1": "Desayuno grupal o paseo corto",
+    "oct5-2": "Tarde: Empacar y descansar"
   }
 
 

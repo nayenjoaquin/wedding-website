@@ -3,20 +3,21 @@
 import { useState } from "react"
 import { NavBarItem } from "./nav-bar-item"
 import { Menu, X } from "lucide-react"
-import { faqRef, homeRef, locationRef, planRef, programRef, storyRef, visionRef } from "@/public/const/refs"
 import LanguageSwitcher from "./language-switcher"
 
 const Items=[
-    {name: "home", ref: homeRef},
-    {name:'story', ref: storyRef},
-    {name: 'vision', ref: visionRef},
-    {name: "location", ref: locationRef},
-    {name: "bigday", ref: programRef},
-    {name: 'planning', ref: planRef},
-    {name:'faq', ref: faqRef}
+    {name: "home", ref: '/'},
+    {name: 'activities', ref: '/activities'},
+    {name:'story', ref: '/story'},
+    {name: 'vision', ref: '/vision'},
+    {name: "location", ref: '/location'},
+    {name: "bigday", ref: '/wedding'},
+    {name: 'planning', ref: '/planning'},
+    {name:'faq', ref: '/faq'}
+    
 ]
 
-export const NavBar = () => {
+export const NavBar = ({locale}: {locale: string}) => {
 
     const [open, setOpen] = useState(false)
 
@@ -31,10 +32,11 @@ export const NavBar = () => {
                 toggleMenu()
             }} className={` w-full h-content absolute top-[var(--nav-height)] transition-all bg-black opacity-25 ${!open ? 'hidden' : ''}`}></div>
             <nav className={`absolute transition-all right-0 top-[var(--nav-height)] ${!open ? 'right-[-100%]' : ''}`}>
-                <ul className="w-80 fle h-content flex-col gap-2.5 bg-white py-5">
+                <ul className="w-80 flex h-content flex-col gap-2.5 bg-white py-5">
                     {Items.map((item) => (
-                        <NavBarItem title={item.name} ref={item.ref} onClick={toggleMenu} key={item.name} />
+                        <NavBarItem onClick={toggleMenu} locale={locale} title={item.name} ref={item.ref} key={item.name} />
                     ))}
+                    <LanguageSwitcher/>
                 </ul>
             </nav>
             {!open
@@ -42,10 +44,10 @@ export const NavBar = () => {
             : <X className="absolute right-5 top-5 cursor-pointer transition-all hover:scale-105" size='32' onClick={toggleMenu} />
             }
         </header>
-        <header className="bg-white hidden h-nav justify-end w-full z-50 fixed md:flex">
+        <header className="bg-white hidden h-nav justify-center items-center w-full z-50 fixed md:flex">
             <nav className="flex gap-5">
                 {Items.map((item) => (
-                    <NavBarItem title={item.name} ref={item.ref} key={item.name} />
+                    <NavBarItem locale={locale} title={item.name} ref={item.ref} key={item.name} />
                 ))}
                 <LanguageSwitcher/>
             </nav>

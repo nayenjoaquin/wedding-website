@@ -1,8 +1,11 @@
 import { ReferenceSubtitle } from "@/src/components/reference-subtitle"
 import { planRef } from "@/public/const/refs"
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
 
 export const PlanAheadPage = () => {
+
+    const locale = useLocale();
 
     const t = useTranslations('planning');
     const tipping = useTranslations('tipping');
@@ -38,7 +41,7 @@ export const PlanAheadPage = () => {
                         <p className="max-w-md">
                         {t('desc1')}<br />
                         <br />
-                        <a href="https://drive.google.com/file/d/1VMfY4_HXAbk4yrr_CtPg383M2O2TuAeS/view?usp=drive_link" target="_blank" className="text-blue-700 font-semibold cursor-pointer">{t('itinerary_link')} </a>{t('desc2')}
+                        <Link href={`/${locale}/activities`} className="text-blue-700 font-semibold cursor-pointer">{t('itinerary_link')} </Link>{t('desc2')}
                         </p>
                     </div>
                 </div>

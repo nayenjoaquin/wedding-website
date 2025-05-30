@@ -47,6 +47,10 @@ html {
   font-size: 24px;
   font-family: 'NewsReader';
 }
+.minititle{
+  font-size: 20px;
+  font-family: 'NewsReader';
+}
 
 .highlight:target {
   background-color: #fff460; /* Tailwind's yellow-100 */
@@ -62,5 +66,8 @@ html {
   }
   .subtitle{
     font-size: 32px;
+  }
+  .minititle{
+    font-size: 24px;
   }
 }

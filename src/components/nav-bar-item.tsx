@@ -1,28 +1,31 @@
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
 
 
 interface NavBarItemsProps {
     title: string,
-    ref: React.RefObject<HTMLAnchorElement|null>,
-    onClick?: () => void
+    ref: string,
+    locale: string,
+    onClick?: () => void;
 }
 
-export const NavBarItem = ({ title, ref, onClick }: NavBarItemsProps) => {
+export const NavBarItem = ({ title, ref, locale, onClick }: NavBarItemsProps) => {
 
     const t = useTranslations('navbar');
+    const router = useRouter();
+    const handleClick = () => {
+
+        if (onClick) {
+            onClick();
+        }
+        if (ref.startsWith('/')) {
+            router.push(`/${locale}/${ref}`);
+        }
+    }
 
     return (
-        <li onClick={e=>{
-            e.preventDefault();
-            if(onClick) onClick();
-            if(title === 'home'){
-            //scroll to top smoothly
-                window.scrollTo({top: 0, behavior: 'smooth'})
-            }else{
-                ref.current?.scrollIntoView({behavior: 'smooth'})
-            }
-        }} className="transition-all hover:bg-gray-100 font-medium cursor-pointer list-none p-5 md:hover:font-bold md:hover:bg-transparent">
-            {t(title)}
+        <li onClick={handleClick} className="list-none transition-all hover:bg-gray-100 font-medium cursor-pointer p-2.5 md:hover:font-bold md:hover:bg-transparent">
+           {t(title)}
         </li>
     )
 }
