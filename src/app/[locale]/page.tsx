@@ -2,14 +2,8 @@
 
 import Image from "next/image";
 import { Countdown } from "@/src/components/countdown";
-import ProgramPage from "@/src/views/program";
 import { homeRef } from "@/public/const/refs";
-import { LocationView } from "@/src/views/location";
 import { SaveTheDateButton } from "@/src/components/save-the-date-button";
-import { OurStoryPage } from "@/src/views/our-story";
-import { FAQView } from "@/src/views/faq";
-import { WeddingVision } from "@/src/views/wedding-vision";
-import { PlanAheadPage } from "@/src/views/plan-ahead";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
@@ -30,14 +24,6 @@ export default function Home() {
           <SaveTheDateButton onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250930%2F20251001&details=NA&location=Tigiwon%20Community%20House&text=Clau%20%26%20Chris%20wedding")} />
         </div>
       </section>
-      <OurStoryPage />
-      <WeddingVision/>
-      <LocationView />
-      <ProgramPage />
-      <PlanAheadPage/>
-      <FAQView />
-      
-      
     </div>
   );
 }
