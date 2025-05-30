@@ -15,7 +15,7 @@
         "story": "Our Story",
         "vision": "Our Vision",
         "location": "Location",
-        "bigday": "The Big Day",
+        "bigday": "Wedding day",
         "planning": "Planning Ahead",
         "faq": "FAQ",
         "activities": "Activities"
@@ -59,6 +59,7 @@
         "desc": "For all our friends and family traveling from outside the U.S., here are some important tips and information to help you make the most of this experience.",
         "subtitle1":"First time in the US?:",
         "subtitle2":"Activities:",
+        "desc1": "We want our guests to feel prepared and enjoy their time here. That’s why we’ve put together a schedule full of various activities designed to bring us closer and make their stay joyful and unforgettable.",
         "desc2": "to make sure you pack everything you'll need.",
         "itinerary_link": "Check the full itinerary",
         "li0": "Culture of tiping",

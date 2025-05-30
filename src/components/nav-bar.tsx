@@ -9,12 +9,12 @@ import LanguageSwitcher from "./language-switcher"
 const Items=[
     {name: "home", ref: '/'},
     {name: 'activities', ref: '/activities'},
-    {name:'story', ref: '/'},
-    {name: 'vision', ref: '/'},
-    {name: "location", ref: '/'},
-    {name: "bigday", ref: '/'},
-    {name: 'planning', ref: '/'},
-    {name:'faq', ref: '/'}
+    {name:'story', ref: '/story'},
+    {name: 'vision', ref: '/vision'},
+    {name: "location", ref: '/location'},
+    {name: "bigday", ref: '/wedding'},
+    {name: 'planning', ref: '/planning'},
+    {name:'faq', ref: '/faq'}
     
 ]
 
@@ -33,10 +33,11 @@ export const NavBar = ({locale}: {locale: string}) => {
                 toggleMenu()
             }} className={` w-full h-content absolute top-[var(--nav-height)] transition-all bg-black opacity-25 ${!open ? 'hidden' : ''}`}></div>
             <nav className={`absolute transition-all right-0 top-[var(--nav-height)] ${!open ? 'right-[-100%]' : ''}`}>
-                <ul className="w-80 fle h-content flex-col gap-2.5 bg-white py-5">
+                <ul className="w-80 flex h-content flex-col gap-2.5 bg-white py-5">
                     {Items.map((item) => (
-                        <NavBarItem locale={locale} title={item.name} ref={item.ref} key={item.name} />
+                        <NavBarItem onClick={toggleMenu} locale={locale} title={item.name} ref={item.ref} key={item.name} />
                     ))}
+                    <LanguageSwitcher/>
                 </ul>
             </nav>
             {!open
@@ -44,7 +45,7 @@ export const NavBar = ({locale}: {locale: string}) => {
             : <X className="absolute right-5 top-5 cursor-pointer transition-all hover:scale-105" size='32' onClick={toggleMenu} />
             }
         </header>
-        <header className="bg-white hidden h-nav justify-end items-center w-full z-50 fixed md:flex">
+        <header className="bg-white hidden h-nav justify-center items-center w-full z-50 fixed md:flex">
             <nav className="flex gap-5">
                 {Items.map((item) => (
                     <NavBarItem locale={locale} title={item.name} ref={item.ref} key={item.name} />

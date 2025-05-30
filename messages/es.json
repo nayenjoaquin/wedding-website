@@ -1,7 +1,7 @@
 {
   "home": {
     "h3": "Día de la boda",
-    "save_the_date": "Reserva la fecha"
+    "save_the_date": "Guarda la fecha"
   },
   "countdown": {
     "h3": "Cuenta regresiva",
@@ -12,10 +12,11 @@
   },
   "navbar": {
     "home": "Inicio",
+    "activities": "Actividades",
     "story": "Nuestra Historia",
     "vision": "Nuestra Visión",
     "location": "Ubicación",
-    "bigday": "El Gran Día",
+    "bigday": "La boda",
     "planning": "Planificación",
     "faq": "Preguntas Frecuentes"
   },
@@ -41,7 +42,7 @@
   },
   "location": {
     "title": "UBICACIÓN",
-    "location": "Casa Comunitaria Tigiwon",
+    "location": "Tigiwon comunity house",
     "button": "Abrir en el mapa"
   },
   "program": {
