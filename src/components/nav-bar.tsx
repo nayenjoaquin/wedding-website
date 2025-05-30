@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { NavBarItem } from "./nav-bar-item"
 import { Menu, X } from "lucide-react"
-import { faqRef, homeRef, locationRef, planRef, programRef, storyRef, visionRef } from "@/public/const/refs"
 import LanguageSwitcher from "./language-switcher"
 
 const Items=[

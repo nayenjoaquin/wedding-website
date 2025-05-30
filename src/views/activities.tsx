@@ -11,8 +11,8 @@ export const ActivitiesView = () => {
             <div className="flex flex-col gap-2.5 items-center p-5 w-full max-w-5xl">
                 <p>{t('desc')}</p>
                 <div className="flex flex-col gap-5 w-full">
-                    {activities.map((activity, index) => (
-                        <ActivitiesDayView activities={activity.activities} mapKey={activity.key}  />
+                    {activities.map((activity) => (
+                        <ActivitiesDayView activities={activity.activities} mapKey={activity.key} key={activity.key}  />
                     ))}
                 </div>
             </div>
