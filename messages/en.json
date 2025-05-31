@@ -52,8 +52,9 @@
         "title": "WEDDING PROGRAM",
         "arrival": "Arrive at the venue",
         "ceremony": "Ceremony",
+        "cocktail": "Cocktail hour",
         "dinner": "Dinner",
-        "celebration": "Celebration"
+        "exit": "Formal exit"
     },
     "planning":{
         "title": "PLANNING AHEAD",
