@@ -2,7 +2,6 @@
 import { programRef } from "@/public/const/refs";
 import { Clock8 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { HiOutlineCake } from "react-icons/hi";
 import { MdOutlineDinnerDining } from "react-icons/md";
 import { ProgramItem } from "../components/program-item";
 import { GiDiamondRing } from "react-icons/gi";
