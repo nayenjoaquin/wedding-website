@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="flex flex-col pt-[var(--nav-height)] text-foreground">
       <section ref={homeRef} className="h-content w-full bg-background grid place-content-center">
-        <Image className="absolute w-full h-content object-cover z-0 object-center" src='/images/home.png' alt="background" height={1000} width={1000} />
+        <Image className="absolute w-full h-content bg-black opacity-75 object-cover z-0 object-center" src='/images/home.png' alt="background" height={1000} width={1000} />
 
         <div className="flex flex-col items-center justify-center w-full z-10 font-fancy gap-5">
           <div className="flex flex-col items-center">

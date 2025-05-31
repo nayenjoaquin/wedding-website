@@ -23,8 +23,8 @@
   "story": {
     "title": "NUESTRA HISTORIA",
     "text1": "Todo comenzó con una aplicación de intercambio de idiomas que nos unió. Chris aprendiendo español, yo mejorando mi inglés. Charlas casuales se convirtieron en conversaciones profundas, uniendo culturas y corazones.",
-    "text2": "Después de meses de videollamadas, Chris voló a Chile. Desde el momento en que nos conocimos, todo se sintió natural.",
-    "text3": "Su naturaleza divertida y acogedora me hizo sentir cómoda. Coqueteaba, pero no capté ninguna señal hasta que mis amigas me lo hicieron notar.",
+    "text2": "Su naturaleza divertida y acogedora me hizo sentir cómoda. Coqueteaba, pero no capté ninguna señal hasta que mis amigas me lo hicieron notar.",
+    "text3": "Después de meses de videollamadas, Chris voló a Chile. Desde el momento en que nos conocimos, todo se sintió natural.",
     "text4": "El amor creció en silencio, en pequeños momentos—una risa, una historia a la vez.",
     "text5": "Supe que lo amaba en una excursión bajo la lluvia. Preparó té, armó nuestra carpa y me mantuvo abrigada cuando más lo necesitaba.",
     "text6": "Para Chris, el amor se profundizó durante la distancia—llamadas diarias que convirtieron la lejanía en cercanía.",
@@ -32,7 +32,7 @@
     "text8": "La propuesta fue perfecta—en una playa llena de recuerdos, con risas, lágrimas y un fácil “sí”.",
     "text9": "La positividad y gran corazón de Chris me inspiran cada día. Me hace más valiente.",
     "text10": "Él admira mi sentido de la aventura—cómo encontramos magia en los momentos más pequeños de la vida.",
-    "text11": "Soñamos con nuevas aventuras—Chile, Corea del Sur y convertirnos en padres de un perrito.",
+    "text11": "Soñamos con nuevas aventuras—Chile, China y convertirnos en padres de un perrito.",
     "text12": "A donde sea que la vida nos lleve, mientras estemos juntos, estaremos en casa."
   },
   "vision": {
@@ -225,6 +225,7 @@
     "oct4-5": "Regreso a Brighton y cena libre 🍽🏡",
     "oct5-1": "Desayuno grupal o paseo corto",
     "oct5-2": "Tarde: Empacar y descansar"
+
   }
 
 
