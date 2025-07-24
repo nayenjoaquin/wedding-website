@@ -28,6 +28,10 @@
         "key": "sept28",
         "activities":[
             {
+                "key": "sept28-0",
+                "time": ""
+            },
+            {
                 "key": "sept28-1",
                 "time": "08:30 AM - 10:30 AM"
             },
@@ -131,6 +135,10 @@
         "label": "Oct 4",
         "key": "oct4",
         "activities":[
+            {
+                "key": "oct4-0",
+                "time": ""
+            },
             {
                 "key": "oct4-1",
                 "time": "08:30 AM"

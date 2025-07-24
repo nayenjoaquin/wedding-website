@@ -33,32 +33,34 @@ export default function LanguageSwitcher() {
   }, []);
 
   return (
-    <div ref={dropdownRef} className="relative h-full flex flex-col items-center">
+    <div ref={dropdownRef} className="relative h-full w-fit p-2.5 flex flex-col items-center">
       <div
         onClick={() => setExpanded((prev) => !prev)}
-        className="z-10 h-10 p-2.5 flex gap-2.5 items-center cursor-pointer border-2 border-gray-200 rounded-xl bg-white"
+        className="z-10 h-10 w-full flex gap-2.5 p-2.5 items-center cursor-pointer border-2 border-gray-200 rounded-xl bg-white"
       >
         <Image
-          className="h-full w-full aspect-[3/2] object-cover"
+          className="h-full w-fit aspect-[3/2] object-cover"
           src={locale === 'en' ? en : es}
           alt={locale === 'en' ? 'en' : 'es'}
+          height={100}
+          width={100}
         />
         {locale === 'en' ? 'English' : 'Español'}
       </div>
       {expanded && (
-        <div className="flex flex-col bg-white shadow-xl absolute top-12 z-20">
+        <div className="flex w-fit flex-col bg-white shadow-xl absolute top-12 z-20 py-5">
           <button
             onClick={() => switchLanguage('en')}
-            className="h-10 p-2.5 flex gap-2.5 items-center hover:bg-gray-100"
+            className="h-10 w-full p-2.5 flex gap-2.5 items-center hover:bg-gray-100"
           >
-            <Image className="h-full w-full aspect-[3/2] object-cover" src={en} alt="English" />
-            English
+            <Image className="h-full w-fit aspect-[3/2] object-cover" src={en} alt="English" />
+            <span>English</span>
           </button>
           <button
             onClick={() => switchLanguage('es')}
             className="h-10 p-2.5 flex gap-2.5 items-center hover:bg-gray-100"
           >
-            <Image className="h-full w-full aspect-[3/2] object-cover" src={es} alt="Español" />
+            <Image className="h-full w-fit aspect-[3/2] object-cover" src={es} alt="Español" />
             Español
           </button>
         </div>

@@ -36,7 +36,10 @@ export const NavBar = ({locale}: {locale: string}) => {
                     {Items.map((item) => (
                         <NavBarItem onClick={toggleMenu} locale={locale} title={item.name} ref={item.ref} key={item.name} />
                     ))}
-                    <LanguageSwitcher/>
+                    <div className="w-full flex justify-center items-center">
+                        <LanguageSwitcher/>
+                    </div>
+                    
                 </ul>
             </nav>
             {!open
@@ -45,7 +48,7 @@ export const NavBar = ({locale}: {locale: string}) => {
             }
         </header>
         <header className="bg-white hidden h-nav justify-center items-center w-full z-50 fixed md:flex">
-            <nav className="flex gap-5">
+            <nav className="flex gap-5 items-center">
                 {Items.map((item) => (
                     <NavBarItem locale={locale} title={item.name} ref={item.ref} key={item.name} />
                 ))}
