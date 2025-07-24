@@ -127,6 +127,12 @@
     "title": "Coordinación de grupo",
     "desc": "Para ayudar a todos, Chris y yo crearemos grupos de WhatsApp por ciudad (por ejemplo, grupo “Concepción a Colorado”) para ayudar con alojamientos compartidos, alquiler de autos y otras logísticas."
   },
+  "bridal": {
+    "title": "CORTEJO NUPCIAL",
+    "desc": "¡Estamos muy emocionados de tener a nuestros amigos y familiares más cercanos a nuestro lado en este día tan especial! Aquí hay un poco sobre cada uno de ellos.",
+    "bride": "Novia",
+    "groom": "Novio"
+  },
   "faq": {
     "title": "PREGUNTAS FRECUENTES",
     "q0": "¿Cuál es el código de vestimenta?",
