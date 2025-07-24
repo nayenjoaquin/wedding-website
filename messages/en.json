@@ -12,11 +12,12 @@
     },
     "navbar":{
         "home": "Home",
-        "story": "Our Story",
-        "vision": "Our Vision",
+        "story": "Story",
+        "vision": "Vision",
         "location": "Location",
         "bigday": "Wedding day",
         "planning": "Planning Ahead",
+        "bridal": "Bridal Party",
         "faq": "FAQ",
         "activities": "Activities"
     },
@@ -128,6 +129,14 @@
     "group":{
         "title": "Group coordination",
         "desc": "To help everyone, Chris and I will create WhatsApp groups by city (e.g., “Concepción to Colorado” group) to help with shared accommodations, car rentals, and other logistics."
+    },
+    "bridal":{
+        "title": "BRIDAL PARTY",
+        "desc": "We are so excited to have our closest friends and family by our side on this special day! Here’s a little bit about each of them.",
+        "bride": "Bride",
+        "groom": "Groom",
+        "maid_of_honor": "Maid of Honor",
+        "best_man": "Best Man"
     },
     "faq":{
         "title": "FAQ",

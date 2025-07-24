@@ -13,6 +13,7 @@ const Items=[
     {name: "location", ref: '/location'},
     {name: "bigday", ref: '/wedding'},
     {name: 'planning', ref: '/planning'},
+    {name: 'bridal', ref: '/bridal-party'},
     {name:'faq', ref: '/faq'}
     
 ]

@@ -13,12 +13,13 @@
   "navbar": {
     "home": "Inicio",
     "activities": "Actividades",
-    "story": "Nuestra Historia",
-    "vision": "Nuestra Visión",
+    "story": "Historia",
+    "vision": "Visión",
     "location": "Ubicación",
     "bigday": "La boda",
     "planning": "Planificación",
-    "faq": "Preguntas Frecuentes"
+    "bridal": "Cortejo Nupcial",
+    "faq": "FAQ"
   },
   "story": {
     "title": "NUESTRA HISTORIA",
