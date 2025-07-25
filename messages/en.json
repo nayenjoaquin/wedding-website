@@ -135,8 +135,16 @@
         "desc": "We are so excited to have our closest friends and family by our side on this special day! Here’s a little bit about each of them.",
         "bride": "Bride",
         "groom": "Groom",
-        "maid_of_honor": "Maid of Honor",
-        "best_man": "Best Man"
+        "maid-of-honor": "Maid of Honor",
+        "best-man": "Best Man",
+        "mother": "Mother of the Bride",
+        "grooms-mom": "Mother of the Groom",
+        "bridesmaid": "Bridesmaid",
+        "groomsman": "Groomsman",
+        "brides-sister": "Bride's Sister",
+        "grooms-grandad": "Groom's Grandad",
+        "sound-engineer": "Sound Manager / Friend",
+        "mc": "MC / Friend"
     },
     "faq":{
         "title": "FAQ",

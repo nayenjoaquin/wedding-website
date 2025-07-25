@@ -130,8 +130,17 @@
   "bridal": {
     "title": "CORTEJO NUPCIAL",
     "desc": "¡Estamos muy emocionados de tener a nuestros amigos y familiares más cercanos a nuestro lado en este día tan especial! Aquí hay un poco sobre cada uno de ellos.",
-    "bride": "Novia",
-    "groom": "Novio"
+    "bmaid-of-honor": "Dama de honor principal",
+    "best-man": "Padrino de boda principal",
+    "mother": "Madre de la novia",
+    "grooms-mom": "Madre del novio",
+    "bridesmaid": "Dama de honor",
+    "groomsman": "Padrino de boda",
+    "brides-sister": "Hermana de la novia",
+    "grooms-grandad": "Abuelo del novio",
+    "sound-engineer": "Gerente de sonido / Amigo",
+    "mc": "Maestro de ceremonias / Amigo"
+
   },
   "faq": {
     "title": "PREGUNTAS FRECUENTES",

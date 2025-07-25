@@ -1,7 +1,53 @@
 [
+    
+    {
+        "name": "Yazmin Mancilla",
+        "title-key": "maid-of-honor",
+        "img": "yazmin.jpeg"
+    },
+    {
+        "name": "Almendra Gaete",
+        "title-key": "bridesmaid",
+        "img": "alme.jpeg"
+    },
+    {
+        "name": "Fernanda Villagron",
+        "title-key": "bridesmaid",
+        "img": "fernanda.jpeg"
+    },
+    {
+        "name": "Rechel Santana",
+        "title-key": "bridesmaid",
+        "img": "rechel.jpeg"
+    },
+    {
+        "name": "Tamara Barria",
+        "title-key": "bridesmaid",
+        "img": "tamara.jpeg"
+    },
     {
         "name": "Tyler Becker",
         "title-key": "best-man",
-        "img": ""
+        "img": "tyler.jpeg"
+    },
+    {
+        "name": "Taylor Doucet",
+        "title-key": "groomsman",
+        "img": "taylor.jpeg"
+    },
+    {
+        "name": "Jeremy Johnke",
+        "title-key": "groomsman",
+        "img": "jeremy.jpeg"
+    },
+    {
+        "name": "Adam Parks",
+        "title-key": "groomsman",
+        "img": "adam.jpeg"
+    },
+    {
+        "name": "Brian Johnke",
+        "title-key": "groomsman",
+        "img": "brian.jpeg"
     }
 ]
